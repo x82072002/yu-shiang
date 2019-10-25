@@ -1101,6 +1101,7 @@ p {
 }
 #content .result .result-left img {
   width: 5.75rem;
+  height: auto;
 }
 #content .result .result-left p {
   font-size: 2rem;
@@ -2618,6 +2619,7 @@ p {
   }
   #content .result .result-left img {
     width: 4.25rem;
+    height: auto;
     margin-right: 0.5rem;
   }
   #content .result .result-left .junior,
@@ -3377,6 +3379,7 @@ p {
   }
   #content .result .result-left img {
     width: 4.25rem;
+    height: auto;
     margin-right: 0.5rem;
   }
   #content .result .result-left .junior,
