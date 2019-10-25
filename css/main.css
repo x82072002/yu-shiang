@@ -3162,7 +3162,7 @@ p {
   }
   #footer .footer-information a {
     margin-top: 0.5rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   #footer .footer-information .information-left {
     margin-right: 1rem;
@@ -3192,7 +3192,7 @@ p {
   }
   #footer .footer-contact .copyright {
     margin-top: 0.3rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
@@ -3922,7 +3922,7 @@ p {
   }
   #footer .footer-information a {
     margin-top: 0.5rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   #footer .footer-information .information-left {
     margin-right: 1rem;
@@ -3952,7 +3952,7 @@ p {
   }
   #footer .footer-contact .copyright {
     margin-top: 0.3rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
