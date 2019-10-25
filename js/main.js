@@ -68,98 +68,52 @@ $(document).ready(function(e){
 		//index
 		$('#intro h1 , #intro .intro-content , #intro a').addClass('fadeIn-active');
 		$('.growing-right').addClass('fadeInFromRight-active');
+		$('.yourclass-left').addClass('fadeInFromLeft-active');
+		$('.yourclass-right .classimage').addClass('fadeInFromTop-active');
+		$('.yourclass-right .circled').addClass('fadeInFromBottom-active');
+		$('.result-left').addClass('fadeIn-active');
+		$('.result-right').addClass('fadeInFromRight-active');
         
 		//page-title
 		$('.page-title').addClass('fadeInFromTop-active');
 
-		//contactus
-		$('.question-left').addClass('fadeIn-active');
-		$('.question-right').addClass('fadeInFromRight-active');
-
 		//aboutus
 		$('.smile-left').addClass('fadeInFromLeft-active');
 		$('.smile-right').addClass('fadeIn-active');
+		$('.careful-left').addClass('fadeIn-active');
+		$('.careful-right').addClass('fadeInFromRight-active');
+		$('.everyclass-left').addClass('fadeInFromLeft-active');
+		$('.everyclass-right').addClass('fadeIn-active');
+		$('.circle-title').addClass('fadeIn-active');
+		$('.list-name').addClass('fadeIn-active');
 
 		//aboutclass
 		$('.curriculum').addClass('fadeIn-active');
 		$('.curriculum-note').addClass('fadeIn-active');
+		$('.child-left').addClass('fadeIn-active');
+		$('.child-right').addClass('fadeInFromRight-active');
+		$('.basic-left').addClass('fadeInFromLeft-active');
+		$('.basic-right').addClass('fadeIn-active');
+		$('.enterschool-left').addClass('fadeIn-active');
+		$('.enterschool-right').addClass('fadeInFromRight-active');
 
 		//aboutteacher
 		$('.four-advantage > div:first-child').addClass('fadeInFromTop-active');
 		$('.four-advantage .content').addClass('fadeInFromBottom-active');
+		$('.chen-teacher .flexbox').addClass('fadeIn-active');
+		$('.lu-teacher .flexbox').addClass('fadeIn-active');
 
-		$(document).scroll(function(e){
+		//ourwork
+		$('.allartwork').addClass('fadeIn-active');
 
-			var scrollTop = $(document).scrollTop();
- 			
- 			//index
-			if(scrollTop>=600) {
-				$('.yourclass-left').addClass('fadeInFromLeft-active');
-				$('.yourclass-right .classimage').addClass('fadeInFromTop-active');
-				$('.yourclass-right .circled').addClass('fadeInFromBottom-active');
-			}
+		//contactus
+		$('.question-left').addClass('fadeIn-active');
+		$('.question-right').addClass('fadeInFromRight-active');
+		$('.location-left').addClass('fadeInFromLeft-active');
+		$('.location-right').addClass('fadeIn-active');
+		$('.follow-left').addClass('fadeIn-active');
+		$('.follow-right').addClass('fadeInFromRight-active');
 
-			if(scrollTop>=1200) {
-				$('.result-left').addClass('fadeIn-active');
-				$('.result-right').addClass('fadeInFromRight-active');
-			}
-
-			//aboutus
-			if(scrollTop>=440) {
-				$('.careful-left').addClass('fadeIn-active');
-				$('.careful-right').addClass('fadeInFromRight-active');
-			}
-
-			if(scrollTop>=900) {
-				$('.everyclass-left').addClass('fadeInFromLeft-active');
-				$('.everyclass-right').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=1700) {
-				$('.circle-title').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=1900) {
-				$('.list-name').addClass('fadeIn-active');
-			}
-
-			//aboutclass
-			if(scrollTop>=650) {
-				$('.child-left').addClass('fadeIn-active');
-				$('.child-right').addClass('fadeInFromRight-active');
-			}
-
-			if(scrollTop>=1650) {
-				$('.basic-left').addClass('fadeInFromLeft-active');
-				$('.basic-right').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=2650) {
-				$('.enterschool-left').addClass('fadeIn-active');
-				$('.enterschool-right').addClass('fadeInFromRight-active');
-			}
-
-			//aboutteacher
-			if(scrollTop>=400) {
-				$('.chen-teacher .flexbox').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=2100) {
-				$('.lu-teacher .flexbox').addClass('fadeIn-active');
-			}
-
-			//contactus
-			if(scrollTop>=340) {
-				$('.location-left').addClass('fadeInFromLeft-active');
-				$('.location-right').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=1350) {
-				$('.follow-left').addClass('fadeIn-active');
-				$('.follow-right').addClass('fadeInFromRight-active');
-			}
-
-		});
 	}
 
 	if(windowWidth>=768 && windowWidth<=1023) {
@@ -172,6 +126,9 @@ $(document).ready(function(e){
 		//contactus
 		$('.question-left').addClass('fadeIn-active');
 		$('.question-right').addClass('fadeInFromRight-active');
+
+		//ourwork
+		$('.allartwork').addClass('fadeIn-active');
 
 		$(document).scroll(function(e){
 
@@ -290,6 +247,9 @@ $(document).ready(function(e){
 		$('.curriculum').addClass('fadeIn-active');
 		$('.curriculum-note').addClass('fadeIn-active');
 
+		//ourwork
+		$('.allartwork').addClass('fadeIn-active');
+
 		$(document).scroll(function(e){
 
 			var scrollTop = $(document).scrollTop();
@@ -398,6 +358,9 @@ $(document).ready(function(e){
 		//aboutclass
 		$('.curriculum').addClass('fadeIn-active');
 		$('.curriculum-note').addClass('fadeIn-active');
+
+		//ourwork
+		$('.allartwork').addClass('fadeIn-active');
 
 		$(document).scroll(function(e){
 
