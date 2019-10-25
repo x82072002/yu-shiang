@@ -286,6 +286,10 @@ $(document).ready(function(e){
 		$('.question-left').addClass('fadeIn-active');
 		$('.question-right').addClass('fadeInFromRight-active');
 
+		//aboutclass
+		$('.curriculum').addClass('fadeIn-active');
+		$('.curriculum-note').addClass('fadeIn-active');
+
 		$(document).scroll(function(e){
 
 			var scrollTop = $(document).scrollTop();
@@ -336,14 +340,6 @@ $(document).ready(function(e){
 			}
 
 			//aboutclass
-			if(scrollTop>=250) {
-				$('.curriculum').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=650) {
-				$('.curriculum-note').addClass('fadeIn-active');
-			}
-
 			if(scrollTop>=1700) {
 				$('.child-left').addClass('fadeIn-active');
 				$('.child-right').addClass('fadeInFromRight-active');
@@ -399,6 +395,10 @@ $(document).ready(function(e){
 		$('.question-left').addClass('fadeIn-active');
 		$('.question-right').addClass('fadeInFromRight-active');
 
+		//aboutclass
+		$('.curriculum').addClass('fadeIn-active');
+		$('.curriculum-note').addClass('fadeIn-active');
+
 		$(document).scroll(function(e){
 
 			var scrollTop = $(document).scrollTop();
@@ -449,14 +449,6 @@ $(document).ready(function(e){
 			}
 
 			//aboutclass
-			if(scrollTop>=250) {
-				$('.curriculum').addClass('fadeIn-active');
-			}
-
-			if(scrollTop>=650) {
-				$('.curriculum-note').addClass('fadeIn-active');
-			}
-
 			if(scrollTop>=1700) {
 				$('.child-left').addClass('fadeIn-active');
 				$('.child-right').addClass('fadeInFromRight-active');
