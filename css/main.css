@@ -1742,13 +1742,11 @@ p {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 30rem;
+  width: 91.6vw;
 }
 #content .chen-teacher .chen-artwork img {
-  width: 30rem;
-  height: 25rem;
-  -o-object-fit: contain;
-  object-fit: contain;
+  width: 91.6vw;
+  height: auto;
 }
 #content .chen-teacher .chen-artwork p {
   -ms-flex-item-align: end;
@@ -1824,13 +1822,11 @@ p {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 30rem;
+  width: 91.6vw;
 }
 #content .lu-teacher .lu-artwork img {
-  width: 30rem;
-  height: 25rem;
-  -o-object-fit: contain;
-  object-fit: contain;
+  width: 91.6vw;
+  height: auto;
 }
 #content .lu-teacher .lu-artwork p {
   -ms-flex-item-align: end;
