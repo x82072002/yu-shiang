@@ -474,7 +474,7 @@ $(document).ready(function(e){
 				$('.chen-teacher .flexbox').addClass('fadeIn-active');
 			}
 
-			if(scrollTop>=3400) {
+			if(scrollTop>=3000) {
 				$('.lu-teacher .flexbox').addClass('fadeIn-active');
 			}
 
