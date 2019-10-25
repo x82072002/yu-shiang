@@ -506,7 +506,7 @@ p {
 		width: 66vw;
 		height: 7rem;
 		background-color: @color_2;
-		font-size: 2.75rem;
+		font-size: 2.25rem;
 		font-weight: 800;
 		color: @color_3;
 	}
@@ -1911,7 +1911,7 @@ p {
 
 @media (max-width: 359px) {
 	html {
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.container {
 		width: 91.6vw;
@@ -2609,7 +2609,7 @@ p {
 
 @media (min-width: 360px) and (max-width: 767px) {
 	html {
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.container {
 		width: 91.6vw;
@@ -2646,8 +2646,17 @@ p {
 	.col-12 {
 		width: 100%;
 	}
+	h1 {
+		font-size: 2.75rem;
+	}
+	h2 {
+		font-size: 2.25em;
+	}
+	p {
+		font-size: 1.25rem;
+	}
 	.smalltitle {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 
 	#header {
@@ -2665,11 +2674,13 @@ p {
 				margin-top: 2rem;
 				border: 3px solid transparent;
 				padding: 0.75rem 1.25rem;
+				font-size: 1.25rem;
 			}
 			.clickclass {
 				margin: 2rem 0 0 1rem;
 				border: 3px solid transparent;
 				padding: 0.75rem 1.25rem;
+				font-size: 1.25rem;
 			}
 		}
 	}
@@ -2703,6 +2714,7 @@ p {
 	#nav {
 		display: none;
 	}
+
 
 	.hamburger {
 		display: block;
@@ -2745,7 +2757,7 @@ p {
 				h2 {
 					height: 50px;
 					padding: 0 0 0 10px;
-					font-size: 2rem;
+					font-size: 1.75rem;
 					line-height: 50px;
 				}
 			}
@@ -2775,7 +2787,11 @@ p {
 				}
 			}
 		}
-
+        .page-title {
+        	.subtitle {
+        		font-size: 1.25rem;
+        	}
+        }
 		.yourclass {
 			height: 150vw;
 			background-size: cover;
@@ -2824,6 +2840,9 @@ p {
 				}
 				.schoolname {
 					padding-left: 3%;
+				}
+				p {
+					font-size: 1.75rem;
 				}
 			}
 			.result-right {
@@ -2902,7 +2921,7 @@ p {
 				display: flex;
 				flex-wrap: wrap;
 				margin-top: 0.75rem;
-				font-size: 1.35rem;
+				font-size: 1.1rem;
 			}
 			.year-long {
 				margin-right: 0.75rem;
@@ -2950,7 +2969,7 @@ p {
 					height: 1rem;
 				}
 				P {
-					font-size: 1.25rem;
+					font-size: 1.05rem;
 				}
 			}
 		}
@@ -2988,7 +3007,7 @@ p {
 						margin-top: 0.75rem;
 					}
 					p {
-						font-size: 1.5rem;
+						font-size: 1.25rem;
 					}
 				}
 			}
@@ -3010,7 +3029,7 @@ p {
 						margin-top: 0.75rem;
 					}
 					p {
-						font-size: 1.5rem;
+						font-size: 1.25rem;
 					}
 				}
 				.basic-right {
@@ -3054,7 +3073,7 @@ p {
 						margin-top: 0.75rem;
 					}
 					p {
-						font-size: 1.5rem;
+						font-size: 1.25rem;
 					}
 				}
 			}
@@ -3066,24 +3085,25 @@ p {
 			.content {
 				margin-top: 0.5rem;
 				p {
+					font-size: 1.25rem;
 					line-height: 1.15;
 				}
 			}
 			.allcollage-icon {
 				padding-top: 5px;
-				font-size: 4.5rem;
+				font-size: 3.75rem;
 			}
 			.experience-icon {
 				padding-bottom: 2px;
 				padding-left: 2px;
-				font-size: 4.5rem;
+				font-size: 3.75rem;
 			}
 			.exhibition-icon {
 				padding-top: 5px;
-				font-size: 4.75rem;
+				font-size: 4rem;
 			}
 			.high-progression-icon {
-				font-size: 4rem;
+				font-size: 3.5rem;
 			}
 		}  
 		.chen-teacher {
@@ -3092,6 +3112,14 @@ p {
 			background-position: center;
 			.chen-introduction {
 				padding: 0;
+				.introduction {
+					p {
+						font-size: 1.25rem;
+					}
+				}
+			}
+			li {
+				font-size: 1.05rem;
 			}
 			.chen-education {
 				margin-top: 3.5rem;
@@ -3119,6 +3147,14 @@ p {
 			background-position: center;
 			.lu-introduction {
 				padding: 0;
+				.introduction {
+					p {
+						font-size: 1.25rem;
+					}
+				}
+			}
+			li {
+				font-size: 1.05rem;
 			}
 			.lu-education {
 				margin-top: 3.5rem;
@@ -3155,12 +3191,18 @@ p {
 				.artwork-title {
 					width: 8rem;
 					height: 3rem;
+					p {
+						font-size: 1.5rem;
+					}
 				}
 			}
 		}
 		.modal {
 			width: 91.6vw;
 			height: auto;
+			img {
+				width: 100%;
+			}
 		}
 		.question {
 			.question-right {
@@ -3178,20 +3220,21 @@ p {
 					margin-top: 1.5rem;
 					p {
 						line-height: 2rem;
+						font-size: 1.25rem;
 					}
 				}
 				.messerger-button {
 					margin: 0;
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 				.phone-button {
 					i {
-						font-size: 2.25rem;
+						font-size: 2rem;
 					}
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 				.question-button {
@@ -3225,9 +3268,15 @@ p {
 				.googlemap-button {
 					width: 20rem;
 					p {
-						font-size: 1.5rem;
+						font-size: 1.25rem;
 					}
 				}
+				.location-iconline {
+					p {
+						font-size: 1.25rem;
+					}
+				}
+
 			}
 		}
 		.follow {
@@ -3248,12 +3297,12 @@ p {
 				.fb-button {
 					margin: 0;
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 				.line-button {
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 			}

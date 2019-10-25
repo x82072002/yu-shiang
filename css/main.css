@@ -624,7 +624,7 @@ p {
   width: 66vw;
   height: 7rem;
   background-color: #EEEEEF;
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 800;
   color: #FFFFFF;
 }
@@ -2443,7 +2443,7 @@ p {
 }
 @media (max-width: 359px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
   .container {
     width: 91.6vw;
@@ -3203,7 +3203,7 @@ p {
 }
 @media (min-width: 360px) and (max-width: 767px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
   .container {
     width: 91.6vw;
@@ -3232,8 +3232,17 @@ p {
   .col-12 {
     width: 100%;
   }
+  h1 {
+    font-size: 2.75rem;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  p {
+    font-size: 1.25rem;
+  }
   .smalltitle {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   #header {
     height: 80vw;
@@ -3252,11 +3261,13 @@ p {
     margin-top: 2rem;
     border: 3px solid transparent;
     padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
   }
   #header #intro .clickclass {
     margin: 2rem 0 0 1rem;
     border: 3px solid transparent;
     padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
   }
   #header-aboutus {
     height: 10rem;
@@ -3322,7 +3333,7 @@ p {
   #content .growing .bar h2 {
     height: 50px;
     padding: 0 0 0 10px;
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 50px;
   }
   #content .growing .aesthetic h2 {
@@ -3339,6 +3350,9 @@ p {
   }
   #content .growing .eyesandhands h2 {
     width: 74%;
+  }
+  #content .page-title .subtitle {
+    font-size: 1.25rem;
   }
   #content .yourclass {
     height: 150vw;
@@ -3395,6 +3409,9 @@ p {
   }
   #content .result .result-left .schoolname {
     padding-left: 3%;
+  }
+  #content .result .result-left p {
+    font-size: 1.75rem;
   }
   #content .result .result-right {
     padding: 0;
@@ -3494,7 +3511,7 @@ p {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 0.75rem;
-    font-size: 1.35rem;
+    font-size: 1.1rem;
   }
   #content .award-list .year-long {
     margin-right: 0.75rem;
@@ -3540,7 +3557,7 @@ p {
     height: 1rem;
   }
   #content .classtime .noteline P {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
   }
   #content .class-introduction {
     height: 980vw;
@@ -3594,7 +3611,7 @@ p {
     margin-top: 0.75rem;
   }
   #content .class-introduction .child-class .child-right p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   #content .class-introduction .basic-class {
     margin-bottom: 15rem;
@@ -3627,7 +3644,7 @@ p {
     margin-top: 0.75rem;
   }
   #content .class-introduction .basic-class .basic-left p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   #content .class-introduction .basic-class .basic-right {
     margin-top: 2.5rem;
@@ -3686,7 +3703,7 @@ p {
     margin-top: 0.75rem;
   }
   #content .class-introduction .enterschool-class .enterschool-right p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   #content .advantage .four-advantage {
     margin-bottom: 2.5rem;
@@ -3695,23 +3712,24 @@ p {
     margin-top: 0.5rem;
   }
   #content .advantage .content p {
+    font-size: 1.25rem;
     line-height: 1.15;
   }
   #content .advantage .allcollage-icon {
     padding-top: 5px;
-    font-size: 4.5rem;
+    font-size: 3.75rem;
   }
   #content .advantage .experience-icon {
     padding-bottom: 2px;
     padding-left: 2px;
-    font-size: 4.5rem;
+    font-size: 3.75rem;
   }
   #content .advantage .exhibition-icon {
     padding-top: 5px;
-    font-size: 4.75rem;
+    font-size: 4rem;
   }
   #content .advantage .high-progression-icon {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   #content .chen-teacher {
     height: 420vw;
@@ -3720,6 +3738,12 @@ p {
   }
   #content .chen-teacher .chen-introduction {
     padding: 0;
+  }
+  #content .chen-teacher .chen-introduction .introduction p {
+    font-size: 1.25rem;
+  }
+  #content .chen-teacher li {
+    font-size: 1.05rem;
   }
   #content .chen-teacher .chen-education {
     margin-top: 3.5rem;
@@ -3752,6 +3776,12 @@ p {
   }
   #content .lu-teacher .lu-introduction {
     padding: 0;
+  }
+  #content .lu-teacher .lu-introduction .introduction p {
+    font-size: 1.25rem;
+  }
+  #content .lu-teacher li {
+    font-size: 1.05rem;
   }
   #content .lu-teacher .lu-education {
     margin-top: 3.5rem;
@@ -3792,9 +3822,15 @@ p {
     width: 8rem;
     height: 3rem;
   }
+  #content .allartwork .artwork-top .artwork-title p {
+    font-size: 1.5rem;
+  }
   #content .modal {
     width: 91.6vw;
     height: auto;
+  }
+  #content .modal img {
+    width: 100%;
   }
   #content .question .question-right {
     margin-top: 4rem;
@@ -3827,18 +3863,19 @@ p {
   }
   #content .question .question-right .p24fz p {
     line-height: 2rem;
+    font-size: 1.25rem;
   }
   #content .question .question-right .messerger-button {
     margin: 0;
   }
   #content .question .question-right .messerger-button .button-name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   #content .question .question-right .phone-button i {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   #content .question .question-right .phone-button .button-name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   #content .question .question-right .question-button {
     width: 91.6vw;
@@ -3876,7 +3913,10 @@ p {
     width: 20rem;
   }
   #content .location .location-left .googlemap-button p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+  #content .location .location-left .location-iconline p {
+    font-size: 1.25rem;
   }
   #content .follow .follow-right {
     padding: 0;
@@ -3906,10 +3946,10 @@ p {
     margin: 0;
   }
   #content .follow .follow-right .fb-button .button-name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   #content .follow .follow-right .line-button .button-name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   #footer {
     margin-top: 14rem;
