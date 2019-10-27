@@ -1371,10 +1371,11 @@ p {
 			.artwork {
 				display: flex;
 				justify-content: center;
-				width: 91.6vw;
+				width: 480px;
+				height: auto;
 			}
 			img {
-				width: 91.6vw;
+				width: 480px;
 				height: auto;
 			}
 			p {
@@ -1433,10 +1434,11 @@ p {
 			.artwork {
 				display: flex;
 				justify-content: center;
-				width: 91.6vw;
+				width: 480px;
+				height: auto;
 			}
 			img {
-				width: 91.6vw;
+				width: 480px;
 				height: auto;
 			}
 			p {
@@ -1701,7 +1703,7 @@ p {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				width: 19rem;
+				width: 17rem;
 				height: 3.75rem;
 				margin-top: 2.25rem;
 				background-color: @color_2;
@@ -1917,7 +1919,7 @@ p {
 	.col-2 {
 		width: 16.6666667%;
 	}
-
+	
 	.col-3 {
 		width: 50%;
 	}
@@ -1946,8 +1948,17 @@ p {
 	.col-12 {
 		width: 100%;
 	}
+	h1 {
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	p {
+		font-size: 1.25rem;
+	}
 	.smalltitle {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 
 	#header {
@@ -1965,11 +1976,13 @@ p {
 				margin-top: 2rem;
 				border: 3px solid transparent;
 				padding: 0.75rem 1.25rem;
+				font-size: 1.25rem;
 			}
 			.clickclass {
 				margin: 2rem 0 0 1rem;
 				border: 3px solid transparent;
 				padding: 0.75rem 1.25rem;
+				font-size: 1.25rem;
 			}
 		}
 	}
@@ -2004,6 +2017,7 @@ p {
 		display: none;
 	}
 
+
 	.hamburger {
 		display: block;
 		width: 3.5rem;
@@ -2017,7 +2031,7 @@ p {
 			}
 		}
 	}
-
+	
 	#content {
 		> div {
 			margin-top: 14rem;
@@ -2045,7 +2059,7 @@ p {
 				h2 {
 					height: 50px;
 					padding: 0 0 0 10px;
-					font-size: 2rem;
+					font-size: 1.75rem;
 					line-height: 50px;
 				}
 			}
@@ -2075,13 +2089,18 @@ p {
 				}
 			}
 		}
+        .page-title {
+        	.subtitle {
+        		font-size: 1.25rem;
+        	}
+        }
 		.yourclass {
-			height: 160vw;
+			height: 180vw;
 			background-size: cover;
 			background-position: center;
 			.yourclass-left {
 				align-self: flex-end;
-				margin-bottom: 2rem;
+				margin-bottom: 4rem;
 				padding: 0 1.75rem;
 				p {
 					margin-top: 1rem;
@@ -2122,7 +2141,10 @@ p {
 					margin-bottom: 10px;
 				}
 				.schoolname {
-					padding-left: 0;
+					padding-left: 3%;
+				}
+				p {
+					font-size: 1.5rem;
 				}
 			}
 			.result-right {
@@ -2176,7 +2198,7 @@ p {
 			}
 		}
 		.award-list {
-			height: 380vw;
+			height: 400vw;
 			background-size: cover;
 			background-position: center;
 			.list-name {
@@ -2190,18 +2212,18 @@ p {
 				flex-wrap: wrap;
 				flex-direction: column;
 				justify-content: center;
-				align-items: center;
+				align-items: flex-start;
 			}
 
 			.list-name-right {
-				align-items: center;
+				align-items: flex-start;
 			}
 
 			.nameall {
 				display: flex;
 				flex-wrap: wrap;
 				margin-top: 0.75rem;
-				font-size: 12px;
+				font-size: 1rem;
 			}
 			.year-long {
 				margin-right: 0.75rem;
@@ -2213,7 +2235,7 @@ p {
 				margin-right: 1rem;
 			}
 			.name-2fonts {
-				margin-right: 2rem;
+				margin-right: 2.15rem;
 			}
 			.name-4fonts {
 				margin-right: 0.5rem;
@@ -2249,16 +2271,16 @@ p {
 					height: 1rem;
 				}
 				P {
-					font-size: 1.25rem;
+					font-size: 1.05rem;
 				}
 			}
 		}
 		.class-introduction {
-			height: 1100vw;
+			height: 1000vw;
 			margin-top: 0;
 			.child-class {
 				margin-top: 25rem;
-				margin-bottom: 15rem;
+				margin-bottom: 12rem;
 				.child-left {
 					margin-top: 2.5rem;
 					order: 1;
@@ -2287,12 +2309,12 @@ p {
 						margin-top: 0.75rem;
 					}
 					p {
-						font-size: 1.5rem;
+						font-size: 1.1rem;
 					}
 				}
 			}
 			.basic-class {
-				margin-bottom: 15rem;
+				margin-bottom: 12rem;
 				.basic-left {
 					display: flex;
 					flex-direction: column;
@@ -2309,7 +2331,7 @@ p {
 						margin-top: 0.75rem;
 					}
 					p {
-						font-size: 1.5rem;
+						font-size: 1.1rem;
 					}
 				}
 				.basic-right {
@@ -2353,7 +2375,7 @@ p {
 						margin-top: 0.75rem;
 					}
 					p {
-						font-size: 1.5rem;
+						font-size: 1.1rem;
 					}
 				}
 			}
@@ -2365,24 +2387,25 @@ p {
 			.content {
 				margin-top: 0.5rem;
 				p {
+					font-size: 1.25rem;
 					line-height: 1.15;
 				}
 			}
 			.allcollage-icon {
 				padding-top: 5px;
-				font-size: 4.5rem;
+				font-size: 3.75rem;
 			}
 			.experience-icon {
 				padding-bottom: 2px;
 				padding-left: 2px;
-				font-size: 4.5rem;
+				font-size: 3.75rem;
 			}
 			.exhibition-icon {
 				padding-top: 5px;
-				font-size: 4.75rem;
+				font-size: 4rem;
 			}
 			.high-progression-icon {
-				font-size: 4rem;
+				font-size: 3.5rem;
 			}
 		}  
 		.chen-teacher {
@@ -2391,6 +2414,14 @@ p {
 			background-position: center;
 			.chen-introduction {
 				padding: 0;
+				.introduction {
+					p {
+						font-size: 1.25rem;
+					}
+				}
+			}
+			li {
+				font-size: 1.05rem;
 			}
 			.chen-education {
 				margin-top: 3.5rem;
@@ -2402,9 +2433,14 @@ p {
 				padding: 0;
 				.artwork {
 					justify-content: flex-start;
+					width: 91.6vw;
+					height: auto;
 				}
 				p {
 					align-self: flex-start;
+				}
+				img {
+					width: 91.6vw;
 				}
 			}
 			.chen-invited {
@@ -2413,11 +2449,19 @@ p {
 			}
 		}
 		.lu-teacher {
-			height: 470vw;
+			height: 440vw;
 			background-size: cover;
 			background-position: center;
 			.lu-introduction {
 				padding: 0;
+				.introduction {
+					p {
+						font-size: 1.25rem;
+					}
+				}
+			}
+			li {
+				font-size: 1.05rem;
 			}
 			.lu-education {
 				margin-top: 3.5rem;
@@ -2429,9 +2473,14 @@ p {
 				padding: 0;
 				.artwork {
 					justify-content: flex-start;
+					width: 91.6vw;
+					height: auto;
 				}
 				p {
 					align-self: flex-start;
+				}
+				img {
+					width: 91.6vw;
 				}
 			}
 			.lu-invited {
@@ -2454,12 +2503,18 @@ p {
 				.artwork-title {
 					width: 8rem;
 					height: 3rem;
+					p {
+						font-size: 1.5rem;
+					}
 				}
 			}
 		}
 		.modal {
 			width: 91.6vw;
 			height: auto;
+			img {
+				width: 100%;
+			}
 		}
 		.question {
 			.question-right {
@@ -2477,40 +2532,41 @@ p {
 					margin-top: 1.5rem;
 					p {
 						line-height: 2rem;
+						font-size: 1.25rem;
 					}
 				}
 				.messerger-button {
 					margin: 0;
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 				.phone-button {
 					i {
-						font-size: 2.25rem;
+						font-size: 2rem;
 					}
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 				.question-button {
 					width: 91.6vw;
 					margin-top: 2rem;
-					padding: 0 0.5rem;
+					padding: 0;
 					justify-content: space-between;
 				}
 			}
 		}
 		.location {
-			height: 310vw;
+			height: 320vw;
 			background-size: cover;
 			background-position: center;
 			margin-top: 7rem;
 			.location-right {
 				margin-top: 3rem;
 				.googlemap {
-					width: 293px;
-					height: 293px;
+					width: 91.6vw;
+					height: 91.6vw;
 					border: 10px solid  @color_3;
 					box-shadow: 8px 8px 1px @color_9;
 				}
@@ -2522,11 +2578,16 @@ p {
 					margin-top: 1.5rem;
 				}
 				.googlemap-button {
-					width: 20rem;
 					p {
-						font-size: 1.5rem;
+						font-size: 1.25rem;
 					}
 				}
+				.location-iconline {
+					p {
+						font-size: 1.25rem;
+					}
+				}
+
 			}
 		}
 		.follow {
@@ -2541,18 +2602,18 @@ p {
 				.follow-button {
 					width: 91.6vw;
 					margin-top: 2rem;
-					padding: 0 0.5rem;
+					padding: 0;
 					justify-content: space-between;
 				}
 				.fb-button {
 					margin: 0;
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 				.line-button {
 					.button-name {
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 					}
 				}
 			}
@@ -2565,7 +2626,7 @@ p {
 			padding: 0 0 1.5rem 0;
 		}
 		.footer-information {
-			padding: 0 1rem;
+			padding: 0 1.5rem;
 			a {
 				margin-top: 0.5rem;
 				font-size: 1rem;
@@ -3129,9 +3190,14 @@ p {
 				padding: 0;
 				.artwork {
 					justify-content: flex-start;
+					width: 91.6vw;
+					height: auto;
 				}
 				p {
 					align-self: flex-start;
+				}
+				img {
+					width: 91.6vw;
 				}
 			}
 			.chen-invited {
@@ -3164,9 +3230,14 @@ p {
 				padding: 0;
 				.artwork {
 					justify-content: flex-start;
+					width: 91.6vw;
+					height: auto;
 				}
 				p {
 					align-self: flex-start;
+				}
+				img {
+					width: 91.6vw;
 				}
 			}
 			.lu-invited {
@@ -3264,7 +3335,6 @@ p {
 					margin-top: 1.5rem;
 				}
 				.googlemap-button {
-					width: 20rem;
 					p {
 						font-size: 1.25rem;
 					}
@@ -3582,7 +3652,7 @@ p {
 			}
 		}
 		.chen-teacher {
-			height: 280vw;
+			height: 290vw;
 			background-size: cover;
 			background-position: center;
 			.chen-education {
@@ -3593,9 +3663,14 @@ p {
 				margin-top: 3.5rem;
 				.artwork {
 					justify-content: flex-start;
+					width: 604px;
+					height: auto;
 				}
 				p {
 					align-self: flex-start;
+				}
+				img {
+					width: 604px;
 				}
 			}
 			.chen-invited {
@@ -3603,7 +3678,7 @@ p {
 			}
 		}
 		.lu-teacher {
-			height: 265vw;
+			height: 270vw;
 			background-size: cover;
 			background-position: center;
 			.lu-education {
@@ -3614,9 +3689,14 @@ p {
 				margin-top: 3.5rem;
 				.artwork {
 					justify-content: flex-start;
+					width: 604px;
+					height: auto;
 				}
 				p {
 					align-self: flex-start;
+				}
+				img {
+					width: 604px;
 				}
 			}
 			.lu-invited {
@@ -3925,7 +4005,12 @@ p {
 				}
 			}
 			.chen-artwork {
+				.artwork {
+					width: 100%;
+					height: auto;
+				}
 				img {
+					width: calc(~"46.875vw - 6rem");
 					max-height: 22rem;
 				}
 				p {
@@ -3953,7 +4038,12 @@ p {
 				}
 			}
 			.lu-artwork {
+				.artwork {
+					width: 100%;
+					height: auto;
+				}
 				img {
+					width: calc(~"46.875vw - 6rem");
 					max-height: 22rem;
 				}
 				p {
