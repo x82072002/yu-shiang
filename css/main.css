@@ -687,7 +687,6 @@ p {
   flex-wrap: wrap;
 }
 #content > div {
-  /*min-width: 1152px;*/
   margin-top: 20rem;
 }
 #content .growing {
