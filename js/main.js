@@ -1,5 +1,4 @@
 var windowWidth = $(window).width();
-console.log(windowWidth);
 
 $(document).ready(function(e){
 
@@ -30,39 +29,7 @@ $(document).ready(function(e){
 	    autoplayHoverPause:true,
 	    items:1
 	})
-
-	//atrwork-click-zoom
-	$('.artwork-bottom a').click(function(e){
-		
-		e.preventDefault();
-
-		//read
-		var imgsrc = $(this).children('img').prop('src');
-		var captionHeader = $(this).find('.header').text();
-		var captionContent = $(this).find('.content').text();
-
-		//embed
-		$('.modal img').prop('src' , imgsrc);
-		$('.modal-caption .header').text(captionHeader);
-		$('.modal-caption .content').text(captionContent);
-
-		//display
-		$('.modal-container').css({'display' : 'block'});
-		$('.modal').css({'display' : 'flex'});
-
-		//blur
-		$('.modal-container').click(function(e){
-			$('.modal-container').css({display : 'none'});
-			$('.modal').css({display : 'none'});
-		});
-		$('.modal .icon-x').click(function(e){
-			e.preventDefault();
-			$('.modal-container').css({display : 'none'});
-			$('.modal').css({display : 'none'});
-		});
-
-	});
-
+	
 
 	if(windowWidth<=767) {
 		//index
@@ -253,7 +220,7 @@ $(document).ready(function(e){
 		$(document).scroll(function(e){
 
 			var scrollTop = $(document).scrollTop();
- 			console.log(scrollTop);
+
  			//index
 			if(scrollTop>=350) {
 				$('.aesthetic h2').addClass('animation-aesthetic-active');

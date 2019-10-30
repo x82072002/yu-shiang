@@ -1547,60 +1547,6 @@ p {
 		}
 	}
 
-	.modal-container {
-		display: none;
-		margin-top: 0;
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		background-color: rgba(0,0,0,.8);
-		z-index: 1;
-	}
-
-	.modal {
-		display: none;
-		flex-direction: column;
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50% , -50%);
-		img {
-			width: auto;
-			height: auto;
-		}
-		.modal-caption {
-			display: flex;
-			justify-content: space-between;
-			width: 100%;
-			padding: 0.25rem 0.5rem;
-			color: @color_3;
-			.header {
-				margin-bottom: 0.25rem;
-				font-size: 1rem;
-				font-weight: 800;
-			}
-			.content {
-				font-size: 0.75rem;
-			}
-			.icon-x {
-				margin-top: 0.75rem;
-				div {
-					width: 35px;
-					height: 4px;
-					background-color: @color_3;
-					&:first-child {
-						transform: translateY(2px) rotate(45deg);
-					}
-					&:last-child {
-						transform: translateY(-2px) rotate(-45deg);
-					}
-				}
-			}
-		}
-	}
-
 	.question {
 		margin-top: 2rem;
 		.question-right {
@@ -2496,6 +2442,13 @@ p {
 			.artwork-bottom {
 				flex-wrap: nowrap;
 				overflow: auto;
+				a {
+					&:hover {
+						transform: none;
+						box-shadow: none;
+						transition: all 0s ease 0s;
+					}
+				}
 			}
 			.artwork-top {
 				.artwork-title {
@@ -2505,13 +2458,6 @@ p {
 						font-size: 1.5rem;
 					}
 				}
-			}
-		}
-		.modal {
-			width: 91.6vw;
-			height: auto;
-			img {
-				width: 100%;
 			}
 		}
 		.question {
@@ -3253,6 +3199,13 @@ p {
 			.artwork-bottom {
 				flex-wrap: nowrap;
 				overflow: auto;
+				a {
+					&:hover {
+						transform: none;
+						box-shadow: none;
+						transition: all 0s ease 0s;
+					}
+				}
 			}
 			.artwork-top {
 				.artwork-title {
@@ -3262,13 +3215,6 @@ p {
 						font-size: 1.5rem;
 					}
 				}
-			}
-		}
-		.modal {
-			width: 91.6vw;
-			height: auto;
-			img {
-				width: 100%;
 			}
 		}
 		.question {
@@ -3701,9 +3647,16 @@ p {
 				margin-top: 1.5rem;
 			}
 		}
-		.modal {
-			width: 500px;
-			height: auto;
+		.allartwork {
+			.artwork-bottom {
+				a {
+					&:hover {
+						transform: none;
+						box-shadow: none;
+						transition: all 0s ease 0s;
+					}
+				}
+			}
 		}
 		.question {
 			.question-right {
@@ -4054,6 +4007,17 @@ p {
 			}
 			.lu-invited {
 				margin-top: 3.5rem;
+			}
+		}
+		.allartwork {
+			.artwork-bottom {
+				a {
+					&:hover {
+						transform: none;
+						box-shadow: none;
+						transition: all 0s ease 0s;
+					}
+				}
 			}
 		}
 		.question {

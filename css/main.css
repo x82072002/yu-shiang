@@ -1963,71 +1963,6 @@ p {
   background-image: -o-linear-gradient(#2CAE70, #EDB72A);
   background-image: linear-gradient(#2CAE70, #EDB72A);
 }
-#content .modal-container {
-  display: none;
-  margin-top: 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 1;
-}
-#content .modal {
-  display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-#content .modal img {
-  width: auto;
-  height: auto;
-}
-#content .modal .modal-caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0.25rem 0.5rem;
-  color: #FFFFFF;
-}
-#content .modal .modal-caption .header {
-  margin-bottom: 0.25rem;
-  font-size: 1rem;
-  font-weight: 800;
-}
-#content .modal .modal-caption .content {
-  font-size: 0.75rem;
-}
-#content .modal .modal-caption .icon-x {
-  margin-top: 0.75rem;
-}
-#content .modal .modal-caption .icon-x div {
-  width: 35px;
-  height: 4px;
-  background-color: #FFFFFF;
-}
-#content .modal .modal-caption .icon-x div:first-child {
-  -webkit-transform: translateY(2px) rotate(45deg);
-  -ms-transform: translateY(2px) rotate(45deg);
-  transform: translateY(2px) rotate(45deg);
-}
-#content .modal .modal-caption .icon-x div:last-child {
-  -webkit-transform: translateY(-2px) rotate(-45deg);
-  -ms-transform: translateY(-2px) rotate(-45deg);
-  transform: translateY(-2px) rotate(-45deg);
-}
 #content .question {
   margin-top: 2rem;
 }
@@ -3065,19 +3000,22 @@ p {
     flex-wrap: nowrap;
     overflow: auto;
   }
+  #content .allartwork .artwork-bottom a:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+  }
   #content .allartwork .artwork-top .artwork-title {
     width: 8rem;
     height: 3rem;
   }
   #content .allartwork .artwork-top .artwork-title p {
     font-size: 1.5rem;
-  }
-  #content .modal {
-    width: 91.6vw;
-    height: auto;
-  }
-  #content .modal img {
-    width: 100%;
   }
   #content .question .question-right {
     margin-top: 4rem;
@@ -3872,19 +3810,22 @@ p {
     flex-wrap: nowrap;
     overflow: auto;
   }
+  #content .allartwork .artwork-bottom a:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+  }
   #content .allartwork .artwork-top .artwork-title {
     width: 8rem;
     height: 3rem;
   }
   #content .allartwork .artwork-top .artwork-title p {
     font-size: 1.5rem;
-  }
-  #content .modal {
-    width: 91.6vw;
-    height: auto;
-  }
-  #content .modal img {
-    width: 100%;
   }
   #content .question .question-right {
     margin-top: 4rem;
@@ -4390,9 +4331,15 @@ p {
   #content .lu-teacher .lu-invited {
     margin-top: 1.5rem;
   }
-  #content .modal {
-    width: 500px;
-    height: auto;
+  #content .allartwork .artwork-bottom a:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
   }
   #content .question .question-right {
     margin-top: 4rem;
@@ -4704,6 +4651,16 @@ p {
   }
   #content .lu-teacher .lu-invited {
     margin-top: 3.5rem;
+  }
+  #content .allartwork .artwork-bottom a:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
   }
   #content .question .question-right h2 {
     font-size: 2.25rem;
