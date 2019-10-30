@@ -1742,7 +1742,6 @@ p {
   -ms-flex-pack: center;
   justify-content: center;
   width: 480px;
-  height: auto;
 }
 #content .chen-teacher .chen-artwork img {
   width: 480px;
@@ -1823,7 +1822,6 @@ p {
   -ms-flex-pack: center;
   justify-content: center;
   width: 480px;
-  height: auto;
 }
 #content .lu-teacher .lu-artwork img {
   width: 480px;
@@ -2933,7 +2931,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 91.6vw;
-    height: auto;
   }
   #content .chen-teacher .chen-artwork p {
     -ms-flex-item-align: start;
@@ -2976,7 +2973,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 91.6vw;
-    height: auto;
   }
   #content .lu-teacher .lu-artwork p {
     -ms-flex-item-align: start;
@@ -3743,7 +3739,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 91.6vw;
-    height: auto;
   }
   #content .chen-teacher .chen-artwork p {
     -ms-flex-item-align: start;
@@ -3786,7 +3781,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 91.6vw;
-    height: auto;
   }
   #content .lu-teacher .lu-artwork p {
     -ms-flex-item-align: start;
@@ -4288,7 +4282,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 604px;
-    height: auto;
   }
   #content .chen-teacher .chen-artwork p {
     -ms-flex-item-align: start;
@@ -4319,7 +4312,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 604px;
-    height: auto;
   }
   #content .lu-teacher .lu-artwork p {
     -ms-flex-item-align: start;
@@ -4611,7 +4603,6 @@ p {
   }
   #content .chen-teacher .chen-artwork .artwork {
     width: 100%;
-    height: auto;
   }
   #content .chen-teacher .chen-artwork img {
     width: calc(46.875vw - 6rem);
@@ -4636,7 +4627,6 @@ p {
   }
   #content .lu-teacher .lu-artwork .artwork {
     width: 100%;
-    height: auto;
   }
   #content .lu-teacher .lu-artwork img {
     width: calc(46.875vw - 6rem);
