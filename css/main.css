@@ -1394,21 +1394,6 @@ p {
   font-size: 1.5rem;
 }
 #content .class-introduction {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   height: 3720px;
   background-image: url(img/aboutclass/課程介紹底圖.svg);
   background-position: center;
@@ -1456,6 +1441,7 @@ p {
 }
 #content .class-introduction .child-class {
   margin-bottom: 25rem;
+  margin-top: 25rem;
 }
 #content .class-introduction .child-class .child-left {
   display: -webkit-box;
@@ -1684,15 +1670,6 @@ p {
   font-weight: 800;
 }
 #content .chen-teacher {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   height: 110vw;
   background-image: url(img/aboutteacher/橘底.svg);
   background-size: contain;
@@ -1703,6 +1680,7 @@ p {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+  margin-top: 20vw;
 }
 #content .chen-teacher ul {
   margin-top: 0.75rem;
@@ -1764,15 +1742,6 @@ p {
   padding: 0 3rem;
 }
 #content .lu-teacher {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   height: 110vw;
   background-image: url(img/aboutteacher/紫底.svg);
   background-size: contain;
@@ -1783,6 +1752,7 @@ p {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+  margin-top: 20vw;
 }
 #content .lu-teacher ul {
   margin-top: 0.75rem;
@@ -2058,20 +2028,14 @@ p {
   letter-spacing: 1px;
 }
 #content .location {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   height: 75vw;
   background-image: url(img/contactus/地圖底.svg);
   background-size: contain;
   background-repeat: no-repeat;
   color: #FFFFFF;
+}
+#content .location .flexbox {
+  margin-top: 18vw;
 }
 #content .location .location-left {
   display: -webkit-box;
@@ -2734,7 +2698,7 @@ p {
     margin-top: 0;
   }
   #content .class-introduction .child-class {
-    margin-top: 25rem;
+    margin-top: 34rem;
     margin-bottom: 12rem;
   }
   #content .class-introduction .child-class .child-left {
@@ -2948,6 +2912,9 @@ p {
     background-size: cover;
     background-position: center;
   }
+  #content .lu-teacher .flexbox {
+    margin-top: 17vw;
+  }
   #content .lu-teacher .lu-introduction {
     padding: 0;
   }
@@ -3071,6 +3038,9 @@ p {
     background-size: cover;
     background-position: center;
     margin-top: 7rem;
+  }
+  #content .location .flexbox {
+    margin-top: 64vw;
   }
   #content .location .location-right {
     margin-top: 3rem;
@@ -3542,7 +3512,7 @@ p {
     margin-top: 0;
   }
   #content .class-introduction .child-class {
-    margin-top: 25rem;
+    margin-top: 36rem;
     margin-bottom: 15rem;
   }
   #content .class-introduction .child-class .child-left {
@@ -3710,7 +3680,7 @@ p {
     font-size: 3.5rem;
   }
   #content .chen-teacher {
-    height: 420vw;
+    height: 430vw;
     background-size: cover;
     background-position: center;
   }
@@ -3879,6 +3849,9 @@ p {
     background-size: cover;
     background-position: center;
     margin-top: 7rem;
+  }
+  #content .location .flexbox {
+    margin-top: 60vw;
   }
   #content .location .location-right {
     margin-top: 3rem;
@@ -4161,7 +4134,7 @@ p {
     margin-top: 0;
   }
   #content .class-introduction .child-class {
-    margin-top: 25rem;
+    margin-top: 36rem;
     margin-bottom: 15rem;
   }
   #content .class-introduction .child-class .child-left {
@@ -4380,6 +4353,9 @@ p {
     background-size: cover;
     background-position: center;
   }
+  #content .location .flexbox {
+    margin-top: 40vw;
+  }
   #content .location .location-right {
     margin-top: 3rem;
   }
@@ -4536,6 +4512,9 @@ p {
   #content .class-introduction .class-iconline p {
     width: 85%;
     font-size: 1.2rem;
+  }
+  #content .class-introduction .child-class {
+    margin-top: 38rem;
   }
   #content .class-introduction .child-class .child-left .child-img {
     width: 30rem;
@@ -4729,5 +4708,14 @@ p {
   }
   #header #intro .index-left {
     display: block;
+  }
+  #content .chen-teacher .flexbox {
+    margin-top: 25vw;
+  }
+  #content .lu-teacher .flexbox {
+    margin-top: 25vw;
+  }
+  #content .location .flexbox {
+    margin-top: 24vw;
   }
 }
