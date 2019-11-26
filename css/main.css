@@ -38,22 +38,23 @@ li {
 }
 h1 {
   margin: 0;
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 h2 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
 }
 p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 .container {
-  width: 72rem;
+  width: 1152px;
   margin: 0 auto;
 }
 .flexbox-header {
@@ -128,15 +129,15 @@ p {
   width: 100%;
 }
 .smalltitle {
-  width: 9rem;
-  height: 3rem;
-  line-height: 3rem;
+  width: 8rem;
+  height: 2.75rem;
+  line-height: 2.75rem;
   text-align: center;
   border-radius: 0.75rem;
   background-image: -webkit-linear-gradient(315deg, #2CAE70, #EDB72A);
   background-image: -o-linear-gradient(315deg, #2CAE70, #EDB72A);
   background-image: linear-gradient(135deg, #2CAE70, #EDB72A);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 .fadeIn {
@@ -295,7 +296,6 @@ p {
   }
 }
 #header {
-  /*min-width: 1152px;*/
   height: 72vw;
   background-image: url(img/index/index-right.svg);
   background-repeat: no-repeat;
@@ -320,7 +320,8 @@ p {
 }
 #header #intro .intro-content p {
   width: 26rem;
-  padding-left: 1.2rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
 }
 #header #intro .clickus {
   display: inline-block;
@@ -527,7 +528,7 @@ p {
 .hamburger {
   display: none;
   margin-top: 2rem;
-  background-color: #E6E6E6;
+  background-color: #C1C1C1;
   border-radius: 0.5rem;
   width: 3.75rem;
   height: 2.8rem;
@@ -653,7 +654,7 @@ p {
 }
 .mobile-nav .mobile-facebook {
   margin-left: 7rem;
-  background-color: #E6E6E6;
+  background-color: #C1C1C1;
 }
 .mobile-nav .mobile-facebook img {
   width: 50px;
@@ -702,7 +703,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 #content .growing .bar .indexicon {
   display: -webkit-box;
@@ -714,19 +715,18 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 95px;
-  height: 95px;
+  width: 80px;
+  height: 80px;
   background-color: transparent;
   border: 4px solid #E5512C;
   border-radius: 50%;
 }
 #content .growing .bar .indexicon img {
-  width: 60px;
+  width: 50px;
 }
 #content .growing .bar h2 {
-  height: 80px;
-  margin: 0 0 0 15px;
-  padding: 18px 0 22px 20px;
+  margin: 0 0 0 1rem;
+  padding: 20px 0 20px 20px;
   background-color: #E5512C;
   color: #FFFFFF;
   border-radius: 5px;
@@ -764,7 +764,7 @@ p {
   border: 4px solid #2CAE70;
 }
 #content .growing .create .indexicon img {
-  width: 54px;
+  width: 43px;
 }
 #content .growing .create h2 {
   width: calc(10rem + 20px);
@@ -793,7 +793,7 @@ p {
   border: 4px solid #4B63AD;
 }
 #content .growing .eyesandhands .indexicon img {
-  width: 68px;
+  width: 55px;
   margin-top: 0.75rem;
 }
 #content .growing .eyesandhands h2 {
@@ -810,7 +810,7 @@ p {
   padding: 0 0 0 3rem;
 }
 #content .growing .growing-right p {
-  margin-top: 1.75rem;
+  margin-top: 1rem;
 }
 #content .yourclass {
   display: -webkit-box;
@@ -830,7 +830,7 @@ p {
   color: #FFFFFF;
 }
 #content .yourclass .yourclass-left p {
-  margin-top: 1.75rem;
+  margin-top: 1rem;
   color: #FFFFFF;
 }
 #content .yourclass .yourclass-right {
@@ -1106,12 +1106,13 @@ p {
   font-size: 2rem;
   font-weight: 800;
   color: #FFFFFF;
+  line-height: 1.25;
 }
 #content .result .result-right {
   padding: 0 0 0 3rem;
 }
 #content .result .result-right p {
-  margin-top: 1.75rem;
+  margin-top: 1rem;
 }
 #content .page-title {
   margin-top: 4.5rem;
@@ -1127,7 +1128,7 @@ p {
 }
 #content .page-title .subtitle {
   margin-top: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 #content .art-smile {
@@ -1148,7 +1149,7 @@ p {
   padding: 0 2.75rem;
 }
 #content .art-smile .smile-left p {
-  margin-top: 1.75rem;
+  margin-top: 1rem;
 }
 #content .art-smile .smile-right {
   border: 1.25rem solid #EEEEEF;
@@ -1180,7 +1181,7 @@ p {
   padding: 0 2.75rem;
 }
 #content .careful-teach .careful-right p {
-  margin-top: 1.75rem;
+  margin-top: 1rem;
 }
 #content .everyclass {
   margin-top: 0;
@@ -1200,7 +1201,7 @@ p {
   padding: 0 2.75rem;
 }
 #content .everyclass .everyclass-left p {
-  margin-top: 1.75rem;
+  margin-top: 1rem;
 }
 #content .everyclass .everyclass-right {
   border: 1.25rem solid #EEEEEF;
@@ -1215,7 +1216,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 109vw;
+  height: 110vw;
   background-image: url(img/aboutus/獎項底圖.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1378,12 +1379,15 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1.75rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 #content .classtime .noteline .circle {
   margin-right: 1rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#EDB72A), to(#E5512C));
   background-image: -webkit-linear-gradient(#EDB72A, #E5512C);
   background-image: -o-linear-gradient(#EDB72A, #E5512C);
@@ -1391,7 +1395,7 @@ p {
   border-radius: 50%;
 }
 #content .classtime .noteline p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 #content .class-introduction {
   height: 3720px;
@@ -1408,7 +1412,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   width: 100%;
 }
 #content .class-introduction .class-iconline .icon-circle {
@@ -1433,11 +1437,21 @@ p {
 }
 #content .class-introduction .class-iconline p {
   width: 88%;
-  font-weight: 800;
-}
-#content .class-introduction .class-detail p {
   font-size: 1.25rem;
   font-weight: 800;
+}
+#content .class-introduction .first {
+  margin-top: 2.5rem;
+}
+#content .class-introduction .class-detail {
+  margin-top: 2.5rem;
+}
+#content .class-introduction .class-detail p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+#content .class-introduction .class-detail p:first-child {
+  margin-top: 0;
 }
 #content .class-introduction .child-class {
   margin-bottom: 25rem;
@@ -1465,19 +1479,12 @@ p {
 }
 #content .class-introduction .child-class .child-right .linebar {
   margin-top: 0.5rem;
-  width: 15rem;
+  width: 12rem;
   height: 0.3125rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#E5512C), to(#8C4F9B));
   background-image: -webkit-linear-gradient(left, #E5512C, #8C4F9B);
   background-image: -o-linear-gradient(left, #E5512C, #8C4F9B);
   background-image: linear-gradient(90deg, #E5512C, #8C4F9B);
-}
-#content .class-introduction .child-class .child-right .class-detail {
-  margin-top: 2.5rem;
-}
-#content .class-introduction .child-class .child-right .class-detail p {
-  margin-top: 1rem;
-  font-weight: 400;
 }
 #content .class-introduction .basic-class {
   margin-bottom: 25rem;
@@ -1504,19 +1511,12 @@ p {
 }
 #content .class-introduction .basic-class .basic-left .linebar {
   margin-top: 0.5rem;
-  width: 15rem;
+  width: 12rem;
   height: 0.3125rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#EDB72A), to(#E5512C));
   background-image: -webkit-linear-gradient(left, #EDB72A, #E5512C);
   background-image: -o-linear-gradient(left, #EDB72A, #E5512C);
   background-image: linear-gradient(90deg, #EDB72A, #E5512C);
-}
-#content .class-introduction .basic-class .basic-left .class-detail {
-  margin-top: 2.5rem;
-}
-#content .class-introduction .basic-class .basic-left .class-detail p {
-  margin-top: 1rem;
-  font-weight: 400;
 }
 #content .class-introduction .basic-class .basic-left .class-detail .nomargin {
   margin-top: 0;
@@ -1549,19 +1549,12 @@ p {
 }
 #content .class-introduction .enterschool-class .enterschool-right .linebar {
   margin-top: 0.5rem;
-  width: 15rem;
+  width: 12rem;
   height: 0.3125rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#E5512C), to(#8C4F9B));
   background-image: -webkit-linear-gradient(left, #E5512C, #8C4F9B);
   background-image: -o-linear-gradient(left, #E5512C, #8C4F9B);
   background-image: linear-gradient(90deg, #E5512C, #8C4F9B);
-}
-#content .class-introduction .enterschool-class .enterschool-right .class-detail {
-  margin-top: 2.5rem;
-}
-#content .class-introduction .enterschool-class .enterschool-right .class-detail p {
-  margin-top: 1rem;
-  font-weight: 400;
 }
 #content .class-introduction .enterschool-class .enterschool-right .class-detail .nomargin {
   margin-top: 0;
@@ -1652,7 +1645,7 @@ p {
   color: #FFFFFF;
 }
 #content .advantage .content {
-  margin-top: 2.25rem;
+  margin-top: 1rem;
 }
 #content .advantage .content p {
   font-size: 1.5rem;
@@ -1666,7 +1659,7 @@ p {
   margin-top: 1.5rem;
 }
 #content .introduction p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 #content .chen-teacher {
@@ -1686,8 +1679,7 @@ p {
   margin-top: 0.75rem;
 }
 #content .chen-teacher li {
-  font-size: 1.25rem;
-  font-weight: 800;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 #content .chen-teacher .chen-introduction {
@@ -1724,18 +1716,15 @@ p {
 #content .chen-teacher .chen-artwork img {
   width: 480px;
   height: auto;
-}
-#content .chen-teacher .chen-artwork p {
-  -ms-flex-item-align: end;
-  align-self: flex-end;
-  margin-top: 0.25rem;
+  border: 0.75rem solid #C1C1C1;
+  border-radius: 0.75rem;
 }
 #content .chen-teacher .chen-education {
   margin-top: 3.75rem;
   padding: 0 3rem;
 }
 #content .chen-teacher .chen-education .smalltitle-top {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 #content .chen-teacher .chen-invited {
   margin-top: 3.75rem;
@@ -1758,8 +1747,7 @@ p {
   margin-top: 0.75rem;
 }
 #content .lu-teacher li {
-  font-size: 1.25rem;
-  font-weight: 800;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 #content .lu-teacher .lu-introduction {
@@ -1796,18 +1784,15 @@ p {
 #content .lu-teacher .lu-artwork img {
   width: 480px;
   height: auto;
-}
-#content .lu-teacher .lu-artwork p {
-  -ms-flex-item-align: end;
-  align-self: flex-end;
-  margin-top: 0.25rem;
+  border: 0.75rem solid #C1C1C1;
+  border-radius: 0.75rem;
 }
 #content .lu-teacher .lu-education {
   margin-top: 3.75rem;
   padding: 0 3rem;
 }
 #content .lu-teacher .lu-education .smalltitle-top {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 #content .lu-teacher .lu-invited {
   margin-top: 3.75rem;
@@ -1844,8 +1829,8 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 10rem;
-  height: 3.75rem;
+  width: 8rem;
+  height: 3rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#EDB72A), to(#E5512C));
   background-image: -webkit-linear-gradient(#EDB72A, #E5512C);
   background-image: -o-linear-gradient(#EDB72A, #E5512C);
@@ -1854,7 +1839,7 @@ p {
 }
 #content .allartwork .artwork-top .artwork-title p {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -1948,7 +1933,7 @@ p {
   width: 100%;
 }
 #content .question .question-right .p24fz p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 2.5rem;
 }
@@ -1977,7 +1962,7 @@ p {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #content .question .question-right .messerger-button:hover {
-  background-color: #E6E6E6;
+  background-color: #C1C1C1;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -2011,7 +1996,7 @@ p {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #content .question .question-right .phone-button:hover {
-  background-color: #E6E6E6;
+  background-color: #C1C1C1;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -2101,9 +2086,6 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   margin-top: 1.5rem;
 }
 #content .location .location-left .location-iconline .icon-circle {
@@ -2127,12 +2109,8 @@ p {
   font-size: 1.5rem;
 }
 #content .location .location-left .location-iconline p {
-  width: 85%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 800;
-}
-#content .location .location-left .location-iconline .twoline p {
-  line-height: 2rem;
 }
 #content .location .location-right {
   display: -webkit-box;
@@ -2191,7 +2169,7 @@ p {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #content .follow .follow-right .fb-button:hover {
-  background-color: #E6E6E6;
+  background-color: #C1C1C1;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -2225,7 +2203,7 @@ p {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #content .follow .follow-right .line-button:hover {
-  background-color: #E6E6E6;
+  background-color: #C1C1C1;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -2311,28 +2289,32 @@ p {
   width: 50%;
   padding: 0 3rem;
 }
-#footer .footer-contact > div {
-  margin-top: 1.25rem;
-  color: #EEEEEF;
-}
-#footer .footer-contact .footer-subtitle {
-  letter-spacing: 1px;
-}
 #footer .footer-contact .footer-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 #footer .footer-contact .footer-button a {
-  padding: 0.75rem 1.75rem;
-  font-size: 1.75rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 2px;
   background-color: #EEEEEF;
   color: #E5512C;
   border-radius: 0.75rem;
 }
+#footer .footer-contact .footer-button a:hover {
+  background-color: #C1C1C1;
+}
+#footer .footer-contact .footer-subtitle {
+  margin-top: 1rem;
+  color: #EEEEEF;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
 #footer .footer-contact .copyright {
+  margin-top: 1rem;
+  color: #EEEEEF;
   font-size: 0.75rem;
 }
 @media (max-width: 359px) {
@@ -2373,7 +2355,7 @@ p {
     font-size: 2em;
   }
   p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .smalltitle {
     font-size: 1.5rem;
@@ -2389,7 +2371,7 @@ p {
     margin-top: 2rem;
   }
   #header #intro .intro-content p {
-    width: 20rem;
+    width: 23rem;
   }
   #header #intro .clickus {
     margin-top: 2rem;
@@ -2441,7 +2423,7 @@ p {
     margin-top: 14rem;
   }
   #content .growing {
-    margin-top: 14rem;
+    margin-top: 18rem;
   }
   #content .growing .growing-right {
     width: 100%;
@@ -2496,7 +2478,7 @@ p {
   #content .yourclass .yourclass-left {
     -ms-flex-item-align: end;
     align-self: flex-end;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     padding: 0 1.75rem;
   }
   #content .yourclass .yourclass-left p {
@@ -2694,8 +2676,14 @@ p {
     font-size: 1.05rem;
   }
   #content .class-introduction {
-    height: 1000vw;
+    height: 1018vw;
     margin-top: 0;
+  }
+  #content .class-introduction .first {
+    margin-top: 2rem;
+  }
+  #content .class-introduction .class-iconline p {
+    font-size: 1.1rem;
   }
   #content .class-introduction .child-class {
     margin-top: 34rem;
@@ -2742,10 +2730,10 @@ p {
     align-self: center;
   }
   #content .class-introduction .child-class .child-right .class-detail {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
   }
-  #content .class-introduction .child-class .child-right p {
-    font-size: 1.1rem;
+  #content .class-introduction .child-class .child-right .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .class-introduction .basic-class {
     margin-bottom: 12rem;
@@ -2775,10 +2763,10 @@ p {
     align-self: center;
   }
   #content .class-introduction .basic-class .basic-left .class-detail {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
   }
-  #content .class-introduction .basic-class .basic-left p {
-    font-size: 1.1rem;
+  #content .class-introduction .basic-class .basic-left .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .class-introduction .basic-class .basic-right {
     margin-top: 2.5rem;
@@ -2834,10 +2822,10 @@ p {
     align-self: center;
   }
   #content .class-introduction .enterschool-class .enterschool-right .class-detail {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
   }
-  #content .class-introduction .enterschool-class .enterschool-right p {
-    font-size: 1.1rem;
+  #content .class-introduction .enterschool-class .enterschool-right .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .advantage .four-advantage {
     margin-bottom: 2.5rem;
@@ -2896,10 +2884,6 @@ p {
     justify-content: flex-start;
     width: 91.6vw;
   }
-  #content .chen-teacher .chen-artwork p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-  }
   #content .chen-teacher .chen-artwork img {
     width: 91.6vw;
   }
@@ -2940,10 +2924,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 91.6vw;
-  }
-  #content .lu-teacher .lu-artwork p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
   }
   #content .lu-teacher .lu-artwork img {
     width: 91.6vw;
@@ -3034,7 +3014,7 @@ p {
     justify-content: space-between;
   }
   #content .location {
-    height: 320vw;
+    height: 310vw;
     background-size: cover;
     background-position: center;
     margin-top: 7rem;
@@ -3063,8 +3043,13 @@ p {
   #content .location .location-left .googlemap-button p {
     font-size: 1.25rem;
   }
-  #content .location .location-left .location-iconline p {
+  #content .location .location-left .location-iconline .icon-circle {
+    width: 2.75rem;
+    height: 2.75rem;
     font-size: 1.25rem;
+  }
+  #content .location .location-left .location-iconline p {
+    font-size: 1rem;
   }
   #content .follow .follow-right {
     padding: 0;
@@ -3121,32 +3106,29 @@ p {
     -ms-flex-align: end;
     align-items: flex-end;
   }
-  #footer .footer-contact > div {
-    margin-top: 0.5rem;
-  }
-  #footer .footer-contact h2 {
-    font-size: 1rem;
-    -webkit-transform: translate(0.3rem, 0);
-    -ms-transform: translate(0.3rem, 0);
-    transform: translate(0.3rem, 0);
-  }
   #footer .footer-contact .footer-subtitle {
-    display: none;
-  }
-  #footer .footer-contact .footer-button a {
-    padding: 0.25rem 0.75rem;
-    font-size: 1rem;
-    letter-spacing: 1px;
-  }
-  #footer .footer-contact .copyright {
-    margin-top: 0.3rem;
-    font-size: 1rem;
+    margin-top: 10px;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     -webkit-transform-origin: right;
     -ms-transform-origin: right;
     transform-origin: right;
+    position: relative;
+    bottom: -2px;
+    right: -4px;
+  }
+  #footer .footer-contact .footer-button {
+    position: relative;
+    bottom: -6px;
+  }
+  #footer .footer-contact .footer-button a {
+    padding: 5px 8px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  #footer .footer-contact .copyright {
+    display: none;
   }
 }
 @media (min-width: 360px) and (max-width: 767px) {
@@ -3154,7 +3136,7 @@ p {
     font-size: 12px;
   }
   .container {
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   .col-2 {
     width: 16.6666667%;
@@ -3181,13 +3163,13 @@ p {
     width: 100%;
   }
   h1 {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 2.25em;
+    font-size: 2em;
   }
   p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .smalltitle {
     font-size: 1.5rem;
@@ -3203,7 +3185,7 @@ p {
     margin-top: 2rem;
   }
   #header #intro .intro-content p {
-    width: 20rem;
+    width: 23rem;
   }
   #header #intro .clickus {
     margin-top: 2rem;
@@ -3255,7 +3237,7 @@ p {
     margin-top: 14rem;
   }
   #content .growing {
-    margin-top: 14rem;
+    margin-top: 18rem;
   }
   #content .growing .growing-right {
     width: 100%;
@@ -3310,7 +3292,7 @@ p {
   #content .yourclass .yourclass-left {
     -ms-flex-item-align: end;
     align-self: flex-end;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     padding: 0 1.75rem;
   }
   #content .yourclass .yourclass-left p {
@@ -3359,7 +3341,7 @@ p {
     padding-left: 3%;
   }
   #content .result .result-left p {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   #content .result .result-right {
     padding: 0;
@@ -3420,6 +3402,9 @@ p {
     background-size: cover;
     background-position: center;
   }
+  #content .award-list .container {
+    width: 91.6vw;
+  }
   #content .award-list .list-name {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3476,6 +3461,12 @@ p {
   #content .award-list .name-4fonts {
     margin-right: 0.5rem;
   }
+  #content .classtime .container {
+    width: 91.6vw;
+  }
+  #content .classtime .container .curriculum-note {
+    width: 83.3333333vw;
+  }
   #content .classtime .curriculum {
     width: 100%;
     overflow-x: auto;
@@ -3508,8 +3499,14 @@ p {
     font-size: 1.05rem;
   }
   #content .class-introduction {
-    height: 980vw;
+    height: 945vw;
     margin-top: 0;
+  }
+  #content .class-introduction .first {
+    margin-top: 2rem;
+  }
+  #content .class-introduction .class-iconline p {
+    font-size: 1.1rem;
   }
   #content .class-introduction .child-class {
     margin-top: 36rem;
@@ -3525,10 +3522,10 @@ p {
     justify-content: center;
   }
   #content .class-introduction .child-class .child-left .child-img {
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .class-introduction .child-class .child-left img {
-    width: 91.6vw;
+    width: 83.3333333vw;
     border: 10px solid #EEEEEF;
   }
   #content .class-introduction .child-class .child-right {
@@ -3543,7 +3540,7 @@ p {
     -ms-flex-align: start;
     align-items: flex-start;
     padding: 0;
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .class-introduction .child-class .child-right h2 {
     -ms-flex-item-align: center;
@@ -3556,10 +3553,10 @@ p {
     align-self: center;
   }
   #content .class-introduction .child-class .child-right .class-detail {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
   }
-  #content .class-introduction .child-class .child-right p {
-    font-size: 1.25rem;
+  #content .class-introduction .child-class .child-right .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .class-introduction .basic-class {
     margin-bottom: 15rem;
@@ -3576,7 +3573,7 @@ p {
     -ms-flex-align: start;
     align-items: flex-start;
     padding: 0;
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .class-introduction .basic-class .basic-left h2 {
     -ms-flex-item-align: center;
@@ -3589,26 +3586,26 @@ p {
     align-self: center;
   }
   #content .class-introduction .basic-class .basic-left .class-detail {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
   }
-  #content .class-introduction .basic-class .basic-left p {
-    font-size: 1.25rem;
+  #content .class-introduction .basic-class .basic-left .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .class-introduction .basic-class .basic-right {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
   #content .class-introduction .basic-class .basic-right .basic-img {
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .class-introduction .basic-class .basic-right img {
-    width: 91.6vw;
+    width: 83.3333333vw;
     border: 10px solid #EEEEEF;
   }
   #content .class-introduction .enterschool-class .enterschool-left {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
@@ -3617,10 +3614,10 @@ p {
     justify-content: center;
   }
   #content .class-introduction .enterschool-class .enterschool-left .enterschool-img {
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .class-introduction .enterschool-class .enterschool-left img {
-    width: 91.6vw;
+    width: 83.3333333vw;
     border: 10px solid #EEEEEF;
   }
   #content .class-introduction .enterschool-class .enterschool-right {
@@ -3635,7 +3632,7 @@ p {
     -ms-flex-align: start;
     align-items: flex-start;
     padding: 0;
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .class-introduction .enterschool-class .enterschool-right h2 {
     -ms-flex-item-align: center;
@@ -3648,10 +3645,10 @@ p {
     align-self: center;
   }
   #content .class-introduction .enterschool-class .enterschool-right .class-detail {
-    margin-top: 0.75rem;
+    margin-top: 2rem;
   }
-  #content .class-introduction .enterschool-class .enterschool-right p {
-    font-size: 1.25rem;
+  #content .class-introduction .enterschool-class .enterschool-right .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .advantage .four-advantage {
     margin-bottom: 2.5rem;
@@ -3708,14 +3705,10 @@ p {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    width: 91.6vw;
-  }
-  #content .chen-teacher .chen-artwork p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
+    width: 83.3333333vw;
   }
   #content .chen-teacher .chen-artwork img {
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .chen-teacher .chen-invited {
     margin-top: 1.5rem;
@@ -3750,14 +3743,10 @@ p {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    width: 91.6vw;
-  }
-  #content .lu-teacher .lu-artwork p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
+    width: 83.3333333vw;
   }
   #content .lu-teacher .lu-artwork img {
-    width: 91.6vw;
+    width: 83.3333333vw;
   }
   #content .lu-teacher .lu-invited {
     margin-top: 1.5rem;
@@ -3845,7 +3834,7 @@ p {
     justify-content: space-between;
   }
   #content .location {
-    height: 300vw;
+    height: 297vw;
     background-size: cover;
     background-position: center;
     margin-top: 7rem;
@@ -3857,8 +3846,8 @@ p {
     margin-top: 3rem;
   }
   #content .location .location-right .googlemap {
-    width: 91.6vw;
-    height: 91.6vw;
+    width: 83.3333333vw;
+    height: 83.3333333vw;
     border: 10px solid #FFFFFF;
     -webkit-box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
@@ -3867,15 +3856,23 @@ p {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+  #content .location .location-left .linebar {
+    width: 10rem;
+  }
   #content .location .location-left .location-description {
-    width: 91.6vw;
+    width: 83.3333333vw;
     margin-top: 1.5rem;
   }
   #content .location .location-left .googlemap-button p {
     font-size: 1.25rem;
   }
-  #content .location .location-left .location-iconline p {
+  #content .location .location-left .location-iconline .icon-circle {
+    width: 2.75rem;
+    height: 2.75rem;
     font-size: 1.25rem;
+  }
+  #content .location .location-left .location-iconline p {
+    font-size: 1rem;
   }
   #content .follow .follow-right {
     padding: 0;
@@ -3917,7 +3914,7 @@ p {
     padding: 0 0 1.5rem 0;
   }
   #footer .footer-information {
-    padding: 0 2rem;
+    padding: 0;
   }
   #footer .footer-information a {
     margin-top: 0.5rem;
@@ -3932,32 +3929,29 @@ p {
     -ms-flex-align: end;
     align-items: flex-end;
   }
-  #footer .footer-contact > div {
-    margin-top: 0.5rem;
-  }
-  #footer .footer-contact h2 {
-    font-size: 1rem;
-    -webkit-transform: translate(0.3rem, 0);
-    -ms-transform: translate(0.3rem, 0);
-    transform: translate(0.3rem, 0);
-  }
   #footer .footer-contact .footer-subtitle {
-    display: none;
-  }
-  #footer .footer-contact .footer-button a {
-    padding: 0.25rem 0.75rem;
-    font-size: 1rem;
-    letter-spacing: 1px;
-  }
-  #footer .footer-contact .copyright {
-    margin-top: 0.3rem;
-    font-size: 1rem;
+    margin-top: 10px;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     -webkit-transform-origin: right;
     -ms-transform-origin: right;
     transform-origin: right;
+    position: relative;
+    bottom: -2px;
+    right: -4px;
+  }
+  #footer .footer-contact .footer-button {
+    position: relative;
+    bottom: -6px;
+  }
+  #footer .footer-contact .footer-button a {
+    padding: 5px 8px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  #footer .footer-contact .copyright {
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -4038,12 +4032,18 @@ p {
   #content .art-smile {
     height: 150vw;
   }
+  #content .art-smile .container {
+    padding: 0 3rem;
+  }
   #content .art-smile .smile-left {
     padding: 0;
     margin-bottom: 3rem;
   }
   #content .careful-teach {
     height: 150vw;
+  }
+  #content .careful-teach .container {
+    padding: 0 3rem;
   }
   #content .careful-teach .careful-right {
     -webkit-box-ordinal-group: 0;
@@ -4054,6 +4054,9 @@ p {
   }
   #content .everyclass {
     height: 150vw;
+  }
+  #content .everyclass .container {
+    padding: 0 3rem;
   }
   #content .everyclass .everyclass-left {
     padding: 0;
@@ -4112,7 +4115,7 @@ p {
     font-size: 1.25rem;
   }
   #content .classtime .curriculum table {
-    width: 42rem;
+    width: 43.75rem;
   }
   #content .classtime .curriculum th {
     width: 5.25rem;
@@ -4130,7 +4133,7 @@ p {
     font-size: 1.75rem;
   }
   #content .class-introduction {
-    height: 660vw;
+    height: 634vw;
     margin-top: 0;
   }
   #content .class-introduction .child-class {
@@ -4236,6 +4239,9 @@ p {
     -ms-grid-row-align: center;
     align-self: center;
   }
+  #content .class-introduction .class-detail p:first-child {
+    margin-top: 0;
+  }
   #content .chen-teacher {
     height: 290vw;
     background-size: cover;
@@ -4255,10 +4261,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 604px;
-  }
-  #content .chen-teacher .chen-artwork p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
   }
   #content .chen-teacher .chen-artwork img {
     width: 604px;
@@ -4285,10 +4287,6 @@ p {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 604px;
-  }
-  #content .lu-teacher .lu-artwork p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
   }
   #content .lu-teacher .lu-artwork img {
     width: 604px;
@@ -4338,9 +4336,6 @@ p {
   #content .question .question-right .p24fz p {
     line-height: 2rem;
   }
-  #content .question .question-right .messerger-button {
-    margin: 0;
-  }
   #content .question .question-right .question-button {
     width: 100%;
     margin-top: 2rem;
@@ -4363,7 +4358,6 @@ p {
     width: 100%;
   }
   #content .location .location-left .location-description {
-    width: 100%;
     margin-top: 1.5rem;
     padding: 0 4rem;
   }
@@ -4390,9 +4384,6 @@ p {
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-  #content .follow .follow-right .fb-button {
-    margin: 0;
-  }
   #footer {
     margin-top: 14rem;
   }
@@ -4401,21 +4392,13 @@ p {
   }
   #footer .footer-information a {
     margin-top: 0.75rem;
+    font-size: 1.25rem;
   }
   #footer .footer-contact {
     padding: 0;
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-  }
-  #footer .footer-contact > div {
-    margin-top: 0.75rem;
-  }
-  #footer .footer-contact h2 {
-    font-size: 1.75rem;
-    -webkit-transform: translateX(0.625rem);
-    -ms-transform: translateX(0.625rem);
-    transform: translateX(0.625rem);
   }
   #footer .footer-contact .footer-subtitle {
     display: none;
@@ -4425,6 +4408,7 @@ p {
     font-size: 1.5rem;
   }
   #footer .footer-contact .copyright {
+    margin-top: 0.75rem;
     font-size: 0.5rem;
   }
 }
@@ -4509,12 +4493,9 @@ p {
   #content .award-list .name-4fonts {
     margin-right: 0.75rem;
   }
-  #content .class-introduction .class-iconline {
-    margin-top: 1rem;
-  }
   #content .class-introduction .class-iconline p {
     width: 85%;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
   #content .class-introduction .child-class {
     margin-top: 38rem;
@@ -4531,12 +4512,12 @@ p {
   #content .class-introduction .child-class .child-right .linebar {
     margin-top: 0.5rem;
   }
-  #content .class-introduction .child-class .child-right .class-detail {
-    margin-top: 1.5rem;
-  }
   #content .class-introduction .child-class .child-right .class-detail p {
-    margin-top: 0.75rem;
-    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  #content .class-introduction .child-class .child-right .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .class-introduction .basic-class .basic-right .basic-img {
     width: 30rem;
@@ -4550,12 +4531,12 @@ p {
   #content .class-introduction .basic-class .basic-left .linebar {
     margin-top: 0.5rem;
   }
-  #content .class-introduction .basic-class .basic-left .class-detail {
-    margin-top: 1.5rem;
-  }
   #content .class-introduction .basic-class .basic-left .class-detail p {
-    margin-top: 0.75rem;
-    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  #content .class-introduction .basic-class .basic-left .class-detail p:first-child {
+    margin-top: 0;
   }
   #content .class-introduction .enterschool-class .enterschool-left .enterschool-img {
     width: 30rem;
@@ -4569,12 +4550,15 @@ p {
   #content .class-introduction .enterschool-class .enterschool-right .linebar {
     margin-top: 0.5rem;
   }
-  #content .class-introduction .enterschool-class .enterschool-right .class-detail {
-    margin-top: 1.5rem;
-  }
   #content .class-introduction .enterschool-class .enterschool-right .class-detail p {
-    margin-top: 0.75rem;
-    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  #content .class-introduction .enterschool-class .enterschool-right .class-detail p:first-child {
+    margin-top: 0;
+  }
+  #content .chen-teacher .flexbox {
+    margin-top: 10vw;
   }
   #content .chen-teacher li {
     font-size: 1rem;
@@ -4599,6 +4583,9 @@ p {
   }
   #content .chen-teacher .chen-invited {
     margin-top: 3.5rem;
+  }
+  #content .lu-teacher .flexbox {
+    margin-top: 10vw;
   }
   #content .lu-teacher li {
     font-size: 1rem;
@@ -4652,63 +4639,7 @@ p {
     font-size: 2.25rem;
   }
 }
-@media (min-width: 1280px) and (max-width: 1919px) {
-  .container {
-    max-width: 1152px;
-  }
-  .col-2 {
-    width: 16.6666667%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.3333333%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-8 {
-    width: 66.6666667%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.3333333%;
-  }
-  .col-12 {
-    width: 100%;
-  }
-}
 @media (min-width: 1920px) {
-  .container {
-    max-width: 1152px;
-  }
-  .col-2 {
-    width: 16.6666667%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.3333333%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-8 {
-    width: 66.6666667%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.3333333%;
-  }
-  .col-12 {
-    width: 100%;
-  }
   #header #intro .index-left {
     display: block;
   }

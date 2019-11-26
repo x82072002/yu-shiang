@@ -17,7 +17,7 @@
 /*陰影灰*/
 @color_9: rgba(0,0,0,0.2);
 /*hover灰*/
-@color_10: #E6E6E6;
+@color_10: #C1C1C1;
 
 * {
 	box-sizing: border-box;
@@ -54,25 +54,26 @@ li {
 
 h1 {
 	margin: 0;
-	font-size: 3.25rem;
+	font-size: 3rem;
 	font-weight: 800;
 }
 
 h2 {
 	margin: 0;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: 800;
 }
 
 p {
 	margin: 0;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: 400;
 	letter-spacing: 1px;
+	line-height: 1.5;
 }
 
 .container {
-	width: 72rem;
+	width: 1152px;
 	margin: 0 auto;
 }
 
@@ -135,13 +136,13 @@ p {
 }
 
 .smalltitle {
-	width: 9rem;
-	height: 3rem;
-	line-height: 3rem;
+	width: 8rem;
+	height: 2.75rem;
+	line-height: 2.75rem;
 	text-align: center;
 	border-radius: 0.75rem;
 	background-image: linear-gradient(135deg, #2CAE70, #EDB72A);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-weight: 800;
 }
 
@@ -247,7 +248,6 @@ p {
 }
 
 #header {
-	/*min-width: 1152px;*/
     height: 72vw;
 	background-image: url(img/index/index-right.svg);
 	background-repeat: no-repeat;
@@ -264,7 +264,8 @@ p {
 			}
 			p {
 				width: 26rem;
-				padding-left: 1.2rem;
+				padding-left: 1rem;
+				font-size: 1.25rem;
 			}
 		}
 		
@@ -574,25 +575,24 @@ p {
 			display: flex;
 			flex: 0 0;
 			align-items: center;
-			padding-bottom: 16px;
+			padding-bottom: 24px;
 			.indexicon{
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				width: 95px;
-				height: 95px;
+				width: 80px;
+				height: 80px;
 				background-color: transparent;
 				border: 4px solid @color_5;
 				border-radius: 50%;
 				img {
-					width: 60px;
+					width: 50px;
 				}
 			} 
 
 			h2 {
-				height: 80px;
-				margin: 0 0 0 15px;
-				padding: 18px 0 22px 20px;
+				margin: 0 0 0 1rem;
+				padding: 20px 0 20px 20px;
 				background-color: @color_5;
 				color: @color_3;
 				border-radius: 5px;
@@ -635,7 +635,7 @@ p {
 			.indexicon{
 				border: 4px solid @color_6;
 				img {
-					width: 54px;
+					width: 43px;
 				}
 			} 
 			h2 {
@@ -666,7 +666,7 @@ p {
 			.indexicon{
 				border: 4px solid @color_8;
 				img {
-					width: 68px;
+					width: 55px;
 					margin-top: 0.75rem;
 				}
 			} 
@@ -683,7 +683,7 @@ p {
 		.growing-right {
 			padding: 0 0 0 3rem;
 			p {
-				margin-top: 1.75rem;
+				margin-top: 1rem;
 			}
 		}
 	}
@@ -701,7 +701,7 @@ p {
 				color: @color_3;
 			}
 			p {
-				margin-top: 1.75rem;
+				margin-top: 1rem;
 				color: @color_3;
 			}
 		}
@@ -871,12 +871,13 @@ p {
 				font-size: 2rem;
 				font-weight: 800;
 				color: @color_3;
+				line-height: 1.25;
 			}
 		}
 		.result-right {
 			padding: 0 0 0 3rem;
 			p {
-				margin-top: 1.75rem;
+				margin-top: 1rem;
 			}
 		}
 	}
@@ -891,7 +892,7 @@ p {
 		}
 		.subtitle {
 			margin-top: 3rem;
-			font-size: 1.5rem;
+			font-size: 1.25rem;
 			font-weight: 800;
 		}
 	}
@@ -908,7 +909,7 @@ p {
 		.smile-left {
 			padding: 0 2.75rem;
 			p {
-				margin-top: 1.75rem;
+				margin-top: 1rem;
 			}
 		}
 		.smile-right {
@@ -935,7 +936,7 @@ p {
 		.careful-right {
 			padding: 0 2.75rem;
 			p {
-				margin-top: 1.75rem;
+				margin-top: 1rem;
 			}
 		}
 	}
@@ -952,7 +953,7 @@ p {
 		.everyclass-left {
 			padding: 0 2.75rem;
 			p {
-				margin-top: 1.75rem;
+				margin-top: 1rem;
 			}
 		}
 		.everyclass-right {
@@ -965,7 +966,7 @@ p {
 	.award-list {
 		display: flex;
 		align-items: center;
-		height: 109vw;
+		height: 110vw;
 		background-image: url(img/aboutus/獎項底圖.svg);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1096,16 +1097,17 @@ p {
 
 		.noteline {
 			display: flex;
-			margin-top: 1.75rem;
+			align-items: center;
+			margin-top: 1rem;
 			.circle {
 				margin-right: 1rem;
-				width: 1.5rem;
-				height: 1.5rem;
+				width: 1.25rem;
+				height: 1.25rem;
 				background-image: linear-gradient(#EDB72A, #E5512C);
 				border-radius: 50%;
 			}
 			p {
-				font-size: 1.5rem;
+				font-size: 1.25rem;
 			}
 		}
 	}
@@ -1120,7 +1122,7 @@ p {
 		.class-iconline {
 			display: flex;
 			align-items: center;
-			margin-top: 1.5rem;
+			margin-top: 1rem;
 			width: 100%;
 			.icon-circle {
 				display: flex;
@@ -1135,14 +1137,22 @@ p {
 			}
 			p {
 				width: 88%;
+				font-size: 1.25rem;
 				font-weight: 800;
 			}
 		}
+		.first {
+			margin-top: 2.5rem;
+		}
 
 		.class-detail {
+			margin-top: 2.5rem;	
 			p {
-				font-size: 1.25rem;
-				font-weight: 800;
+				margin-top: 0.5rem;	
+				font-size: 1rem;
+			}
+			p:first-child {
+				margin-top: 0;
 			}
 		}
 		.child-class {
@@ -1165,16 +1175,9 @@ p {
 				padding: 0 0 0 3rem;
 				.linebar {
 					margin-top: 0.5rem;
-					width: 15rem;
+					width: 12rem;
 					height: 0.3125rem;
 					background-image: linear-gradient(90deg,@color_5,@color_7);
-				}
-				.class-detail {
-					margin-top: 2.5rem;
-					p {
-						margin-top: 1rem;
-						font-weight: 400;
-					}
 				}
 			}
 		}
@@ -1197,16 +1200,11 @@ p {
 				padding: 0 3rem 0 0;
 				.linebar {
 					margin-top: 0.5rem;
-					width: 15rem;
+					width: 12rem;
 					height: 0.3125rem;
 					background-image: linear-gradient(90deg,@color_4,@color_5);
 				}
 				.class-detail {
-					margin-top: 2.5rem;
-					p {
-						margin-top: 1rem;
-						font-weight: 400;
-					}
 					.nomargin {
 						margin-top: 0;
 					}
@@ -1235,16 +1233,11 @@ p {
 				padding: 0 0 0 3rem;
 				.linebar {
 					margin-top: 0.5rem;
-					width: 15rem;
+					width: 12rem;
 					height: 0.3125rem;
 					background-image: linear-gradient(90deg,@color_5,@color_7);
 				}
 				.class-detail {
-					margin-top: 2.5rem;
-					p {
-						margin-top: 1rem;
-						font-weight: 400;
-					}
 					.nomargin {
 						margin-top: 0;
 					}
@@ -1307,7 +1300,7 @@ p {
 			color: @color_3;
 		}
 		.content {
-			margin-top: 2.25rem;
+			margin-top: 1rem;
 			p {
 				font-size: 1.5rem;
 				line-height: 2rem;
@@ -1324,7 +1317,7 @@ p {
 	.introduction {
 		margin-top: 1.5rem;
 		p {
-			font-size: 1.5rem;
+			font-size: 1.25rem;
 			font-weight: 800;
 		}
 	}
@@ -1343,8 +1336,7 @@ p {
 			margin-top: 0.75rem;
 		}
 		li {
-			font-size: 1.25rem;
-			font-weight: 800;
+			font-size: 1rem;
 			line-height: 1.5rem;
 		}
 		.chen-introduction {
@@ -1368,17 +1360,15 @@ p {
 			img {
 				width: 480px;
 				height: auto;
-			}
-			p {
-				align-self: flex-end;
-				margin-top: 0.25rem;
+				border: 0.75rem solid @color_10;
+				border-radius: 0.75rem;
 			}
 		}
 		.chen-education {
 			margin-top: 3.75rem;
 			padding: 0 3rem;
 			.smalltitle-top {
-				margin-top: 1.5rem;
+				margin-top: 2.5rem;
 			}
 		}
 		.chen-invited {
@@ -1402,8 +1392,7 @@ p {
 			margin-top: 0.75rem;
 		}
 		li {
-			font-size: 1.25rem;
-			font-weight: 800;
+			font-size: 1rem;
 			line-height: 1.5rem;
 		}
 		.lu-introduction {
@@ -1428,17 +1417,15 @@ p {
 			img {
 				width: 480px;
 				height: auto;
-			}
-			p {
-				align-self: flex-end;
-				margin-top: 0.25rem;
+				border: 0.75rem solid @color_10;
+				border-radius: 0.75rem;
 			}
 		}
 		.lu-education {
 			margin-top: 3.75rem;
 			padding: 0 3rem;
 			.smalltitle-top {
-				margin-top: 1.5rem;
+				margin-top: 2.5rem;
 			}	
 		}
 		.lu-invited {
@@ -1467,13 +1454,13 @@ p {
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
-				width: 10rem;
-				height: 3.75rem;
+				width: 8rem;
+				height: 3rem;
 				background-image: linear-gradient(@color_4 , @color_5);
 				border-radius: 0.75rem;
 				p {
 					text-align: center;
-					font-size: 1.75rem;
+					font-size: 1.5rem;
 					font-weight: 800;
 					color: @color_3;
 					letter-spacing: 1px;
@@ -1547,7 +1534,7 @@ p {
 				margin-top: 3rem;
 				width: 100%;
 				p {
-					font-size: 1.5rem;
+					font-size: 1.25rem;
 					font-weight: 800;
 					line-height: 2.5rem;
 				}
@@ -1569,7 +1556,7 @@ p {
 				border-radius: 0.75rem;
 				box-shadow: 2px 2px 1px @color_9;
 				&:hover {
-					background-color: @color_10;
+					background-color: #C1C1C1;
 					transition: all 0.2s;
 				}
 
@@ -1596,7 +1583,7 @@ p {
 				border-radius: 0.75rem;
 				box-shadow: 2px 2px 1px @color_9;
 				&:hover {
-					background-color: @color_10;
+					background-color: #C1C1C1;
 					transition: all 0.2s;
 				}
 				i { 
@@ -1663,7 +1650,6 @@ p {
 			.location-iconline {
 				display: flex;
 				align-items: center;
-				justify-content: center;
 				margin-top: 1.5rem;
 				.icon-circle {
 					display: flex;
@@ -1677,14 +1663,8 @@ p {
 					font-size: 1.5rem;
 				}
 				p {
-					width: 85%;
-					font-size: 1.5rem;
+					font-size: 1.25rem;
 					font-weight: 800;
-				}
-				.twoline {
-					p {
-						line-height: 2rem;
-					}
 				}
 			}
 			
@@ -1729,7 +1709,7 @@ p {
 				border-radius: 0.75rem;
 				box-shadow: 2px 2px 1px @color_9;
 				&:hover {
-					background-color: @color_10;
+					background-color: #C1C1C1;
 					transition: all 0.2s;
 				}
 
@@ -1755,7 +1735,7 @@ p {
 				border-radius: 0.75rem;
 				box-shadow: 2px 2px 1px @color_9;
 				&:hover {
-					background-color: @color_10;
+					background-color: #C1C1C1;
 					transition: all 0.2s;
 				}
 
@@ -1817,26 +1797,30 @@ p {
 		align-items: flex-start;
 		width: 50%;
 		padding: 0 3rem;
-		& > div {
-			margin-top: 1.25rem;
-			color: @color_2;
-		}
-		.footer-subtitle {
-			letter-spacing: 1px;
-		}
 		.footer-button{
 			display: flex;
 			a{
-				padding: 0.75rem 1.75rem;
-				font-size: 1.75rem;
+				padding: 0.75rem 1.25rem;
+				font-size: 1.5rem;
 				font-weight: 800;
 				letter-spacing: 2px;
 				background-color: @color_2;
 				color: @color_5;
 				border-radius: 0.75rem;
+				&:hover {
+					background-color: @color_10;
+				}
 			}
 		}
+		.footer-subtitle {
+			margin-top: 1rem;
+			color: @color_2;
+			font-size: 1rem;	
+			letter-spacing: 1px;
+		}
 		.copyright {
+			margin-top: 1rem;
+			color: @color_2;
 			font-size: 0.75rem;
 		}
 	}
@@ -1889,7 +1873,7 @@ p {
 		font-size: 2em;
 	}
 	p {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.smalltitle {
 		font-size: 1.5rem;
@@ -1903,7 +1887,7 @@ p {
 			.intro-content {
 				margin-top: 2rem;
 				p {
-					width: 20rem;
+					width: 23rem;
 				}
 			}
 			.clickus {
@@ -1971,7 +1955,7 @@ p {
 			margin-top: 14rem;
 		}
 		.growing {
-			margin-top: 14rem;
+			margin-top: 18rem;
 			.growing-right {
 				width: 100%;
 				order: -1;
@@ -2034,7 +2018,7 @@ p {
 			background-position: center;
 			.yourclass-left {
 				align-self: flex-end;
-				margin-bottom: 4rem;
+				margin-bottom: 3rem;
 				padding: 0 1.75rem;
 				p {
 					margin-top: 1rem;
@@ -2210,8 +2194,16 @@ p {
 			}
 		}
 		.class-introduction {
-			height: 1000vw;
+			height: 1018vw;
 			margin-top: 0;
+			.first {
+				margin-top: 2rem;
+			}
+			.class-iconline {
+				p {
+					font-size: 1.1rem;
+				}
+			}
 			.child-class {
 				margin-top: 34rem;
 				margin-bottom: 12rem;
@@ -2240,10 +2232,10 @@ p {
 						align-self: center;
 					}
 					.class-detail {
-						margin-top: 0.75rem;
-					}
-					p {
-						font-size: 1.1rem;
+						margin-top: 2rem;
+						p:first-child {
+							margin-top: 0;
+						}
 					}
 				}
 			}
@@ -2262,10 +2254,10 @@ p {
 						align-self: center;
 					}
 					.class-detail {
-						margin-top: 0.75rem;
-					}
-					p {
-						font-size: 1.1rem;
+						margin-top: 2rem;
+						p:first-child {
+							margin-top: 0;
+						}
 					}
 				}
 				.basic-right {
@@ -2306,10 +2298,10 @@ p {
 						align-self: center;
 					}
 					.class-detail {
-						margin-top: 0.75rem;
-					}
-					p {
-						font-size: 1.1rem;
+						margin-top: 2rem;
+						p:first-child {
+							margin-top: 0;
+						}
 					}
 				}
 			}
@@ -2369,9 +2361,6 @@ p {
 					justify-content: flex-start;
 					width: 91.6vw;
 				}
-				p {
-					align-self: flex-start;
-				}
 				img {
 					width: 91.6vw;
 				}
@@ -2410,9 +2399,6 @@ p {
 				.artwork {
 					justify-content: flex-start;
 					width: 91.6vw;
-				}
-				p {
-					align-self: flex-start;
 				}
 				img {
 					width: 91.6vw;
@@ -2493,7 +2479,7 @@ p {
 			}
 		}
 		.location {
-			height: 320vw;
+			height: 310vw;
 			background-size: cover;
 			background-position: center;
 			margin-top: 7rem;
@@ -2521,8 +2507,13 @@ p {
 					}
 				}
 				.location-iconline {
-					p {
+					.icon-circle {
+						width: 2.75rem;
+						height: 2.75rem;
 						font-size: 1.25rem;
+					}
+					p {
+						font-size: 1rem;
 					}
 				}
 
@@ -2577,28 +2568,25 @@ p {
 		.footer-contact {
 			padding: 0;
 			align-items: flex-end;
-			> div {
-				margin-top: 0.5rem;
-			}
-			h2 {
-				font-size: 1rem;
-				transform: translate(0.3rem , 0);
-			}
 			.footer-subtitle {
-				display: none;
+				margin-top: 10px;
+				transform: scale(0.8);
+				transform-origin: right;
+				position: relative;
+				bottom: -2px;
+				right: -4px;
 			}
 			.footer-button {
+				position: relative;
+				bottom: -6px;
 				a{
-					padding: 0.25rem 0.75rem;
+					padding: 5px 8px;
 					font-size: 1rem;
 					letter-spacing: 1px;
 				}
 			}
 			.copyright {
-				margin-top: 0.3rem;
-				font-size: 1rem;
-				transform: scale(0.8);
-				transform-origin: right;
+				display: none;
 			}
 		}
 	}
@@ -2609,7 +2597,7 @@ p {
 		font-size: 12px;
 	}
 	.container {
-		width: 91.6vw;
+		width: 83.3333333vw;
 	}
 	.col-2 {
 		width: 16.6666667%;
@@ -2644,13 +2632,13 @@ p {
 		width: 100%;
 	}
 	h1 {
-		font-size: 2.75rem;
+		font-size: 2.5rem;
 	}
 	h2 {
-		font-size: 2.25em;
+		font-size: 2em;
 	}
 	p {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.smalltitle {
 		font-size: 1.5rem;
@@ -2664,7 +2652,7 @@ p {
 			.intro-content {
 				margin-top: 2rem;
 				p {
-					width: 20rem;
+					width: 23rem;
 				}
 			}
 			.clickus {
@@ -2732,7 +2720,7 @@ p {
 			margin-top: 14rem;
 		}
 		.growing {
-			margin-top: 14rem;
+			margin-top: 18rem;
 			.growing-right {
 				width: 100%;
 				order: -1;
@@ -2795,7 +2783,7 @@ p {
 			background-position: center;
 			.yourclass-left {
 				align-self: flex-end;
-				margin-bottom: 4rem;
+				margin-bottom: 3rem;
 				padding: 0 1.75rem;
 				p {
 					margin-top: 1rem;
@@ -2839,7 +2827,7 @@ p {
 					padding-left: 3%;
 				}
 				p {
-					font-size: 1.75rem;
+					font-size: 1.5rem;
 				}
 			}
 			.result-right {
@@ -2896,6 +2884,9 @@ p {
 			height: 400vw;
 			background-size: cover;
 			background-position: center;
+			.container {
+				width: 91.6vw;
+			}
 			.list-name {
 				flex-direction: column;
 				justify-content: center;
@@ -2937,6 +2928,12 @@ p {
 			}
 		}
 		.classtime {
+			.container {
+				width: 91.6vw;
+				.curriculum-note {
+					width: 83.3333333vw;
+				}
+			}
 			.curriculum {
 				width: 100%;
 				overflow-x: auto;
@@ -2971,8 +2968,16 @@ p {
 			}
 		}
 		.class-introduction {
-			height: 980vw;
+			height: 945vw;
 			margin-top: 0;
+			.first {
+				margin-top: 2rem;
+			}
+			.class-iconline {
+				p {
+					font-size: 1.1rem;
+				}
+			}
 			.child-class {
 				margin-top: 36rem;
 				margin-bottom: 15rem;
@@ -2981,10 +2986,10 @@ p {
 					order: 1;
 					justify-content: center;
 					.child-img {
-						width: 91.6vw;
+						width: 83.3333333vw;
 					}
 					img {
-						width: 91.6vw;
+						width: 83.3333333vw;
 						border: 10px solid @color_2;
 					}
 				}
@@ -2993,7 +2998,7 @@ p {
 					flex-direction: column;
 					align-items: flex-start;
 					padding: 0;
-					width: 91.6vw;
+					width: 83.3333333vw;
 					h2 {
 						align-self: center;
 					}
@@ -3001,10 +3006,10 @@ p {
 						align-self: center;
 					}
 					.class-detail {
-						margin-top: 0.75rem;
-					}
-					p {
-						font-size: 1.25rem;
+						margin-top: 2rem;
+						p:first-child {
+							margin-top: 0;
+						}
 					}
 				}
 			}
@@ -3015,7 +3020,7 @@ p {
 					flex-direction: column;
 					align-items: flex-start;
 					padding: 0;
-					width: 91.6vw;
+					width: 83.3333333vw;
 					h2 {
 						align-self: center;
 					}
@@ -3023,34 +3028,34 @@ p {
 						align-self: center;
 					}
 					.class-detail {
-						margin-top: 0.75rem;
-					}
-					p {
-						font-size: 1.25rem;
+						margin-top: 2rem;
+						p:first-child {
+							margin-top: 0;
+						}
 					}
 				}
 				.basic-right {
-					margin-top: 2.5rem;
+					margin-top: 2rem;
 					justify-content: center;
 					.basic-img {
-						width: 91.6vw;
+						width: 83.3333333vw;
 					}
 					img {
-						width: 91.6vw;
+						width: 83.3333333vw;
 						border: 10px solid @color_2;
 					}
 				}
 			}
 			.enterschool-class {
 				.enterschool-left {
-					margin-top: 2.5rem;
+					margin-top: 2rem;
 					order: 1;
 					justify-content: center;
 					.enterschool-img {
-						width: 91.6vw;
+						width: 83.3333333vw;
 					}
 					img {
-						width: 91.6vw;
+						width: 83.3333333vw;
 						border: 10px solid @color_2;
 					}
 				}
@@ -3059,7 +3064,7 @@ p {
 					flex-direction: column;
 					align-items: flex-start;
 					padding: 0;
-					width: 91.6vw;
+					width: 83.3333333vw;
 					h2 {
 						align-self: center;
 					}
@@ -3067,10 +3072,10 @@ p {
 						align-self: center;
 					}
 					.class-detail {
-						margin-top: 0.75rem;
-					}
-					p {
-						font-size: 1.25rem;
+						margin-top: 2rem;
+						p:first-child {
+							margin-top: 0;
+						}
 					}
 				}
 			}
@@ -3128,13 +3133,10 @@ p {
 				padding: 0;
 				.artwork {
 					justify-content: flex-start;
-					width: 91.6vw;
-				}
-				p {
-					align-self: flex-start;
+					width: 83.3333333vw;
 				}
 				img {
-					width: 91.6vw;
+					width: 83.3333333vw;
 				}
 			}
 			.chen-invited {
@@ -3167,13 +3169,10 @@ p {
 				padding: 0;
 				.artwork {
 					justify-content: flex-start;
-					width: 91.6vw;
-				}
-				p {
-					align-self: flex-start;
+					width: 83.3333333vw;
 				}
 				img {
-					width: 91.6vw;
+					width: 83.3333333vw;
 				}
 			}
 			.lu-invited {
@@ -3251,7 +3250,7 @@ p {
 			}
 		}
 		.location {
-			height: 300vw;
+			height: 297vw;
 			background-size: cover;
 			background-position: center;
 			margin-top: 7rem;
@@ -3261,16 +3260,19 @@ p {
 			.location-right {
 				margin-top: 3rem;
 				.googlemap {
-					width: 91.6vw;
-					height: 91.6vw;
+					width: 83.3333333vw;
+					height: 83.3333333vw;
 					border: 10px solid  @color_3;
 					box-shadow: 8px 8px 1px @color_9;
 				}
 			}
 			.location-left {
 				flex-wrap: wrap;
+				.linebar {
+					width: 10rem;
+				}
 				.location-description {
-					width: 91.6vw;
+					width: 83.3333333vw;
 					margin-top: 1.5rem;
 				}
 				.googlemap-button {
@@ -3279,8 +3281,13 @@ p {
 					}
 				}
 				.location-iconline {
-					p {
+					.icon-circle {
+						width: 2.75rem;
+						height: 2.75rem;
 						font-size: 1.25rem;
+					}
+					p {
+						font-size: 1rem;
 					}
 				}
 
@@ -3322,7 +3329,7 @@ p {
 			padding: 0 0 1.5rem 0;
 		}
 		.footer-information {
-			padding: 0 2rem;
+			padding: 0;
 			a {
 				margin-top: 0.5rem;
 				font-size: 1rem;
@@ -3335,28 +3342,25 @@ p {
 		.footer-contact {
 			padding: 0;
 			align-items: flex-end;
-			> div {
-				margin-top: 0.5rem;
-			}
-			h2 {
-				font-size: 1rem;
-				transform: translate(0.3rem , 0);
-			}
 			.footer-subtitle {
-				display: none;
+				margin-top: 10px;
+				transform: scale(0.8);
+				transform-origin: right;
+				position: relative;
+				bottom: -2px;
+				right: -4px;
 			}
 			.footer-button {
+				position: relative;
+				bottom: -6px;
 				a{
-					padding: 0.25rem 0.75rem;
+					padding: 5px 8px;
 					font-size: 1rem;
 					letter-spacing: 1px;
 				}
 			}
 			.copyright {
-				margin-top: 0.3rem;
-				font-size: 1rem;
-				transform: scale(0.8);
-				transform-origin: right;
+				display: none;
 			}
 		}
 	}
@@ -3447,6 +3451,9 @@ p {
 		}
 		.art-smile {
 			height: 150vw;
+			.container {
+				padding: 0 3rem;
+			}
 			.smile-left {
 				padding: 0;
 				margin-bottom: 3rem;
@@ -3454,6 +3461,9 @@ p {
 		}
 		.careful-teach {
 			height: 150vw;
+			.container {
+				padding: 0 3rem;
+			}
 			.careful-right {
 				order: -1;
 				padding: 0;
@@ -3462,6 +3472,9 @@ p {
 		}
 		.everyclass {
 			height: 150vw;
+			.container {
+				padding: 0 3rem;
+			}
 			.everyclass-left {
 				padding: 0;
 				margin-bottom: 3rem;
@@ -3505,7 +3518,7 @@ p {
 		.classtime {
 			.curriculum {
 				table {
-					width: 42rem;
+					width: 43.75rem;
 				}
 				th {
 					width: 5.25rem;
@@ -3525,7 +3538,7 @@ p {
 			}
 		}
 		.class-introduction {
-			height: 660vw;
+			height: 634vw;
 			margin-top: 0;
 			.child-class {
 				margin-top: 36rem;
@@ -3589,6 +3602,11 @@ p {
 					}
 				}
 			}
+			.class-detail {
+				p:first-child {
+					margin-top: 0;
+				}
+			}
 		}
 		.chen-teacher {
 			height: 290vw;
@@ -3603,9 +3621,6 @@ p {
 				.artwork {
 					justify-content: flex-start;
 					width: 604px;
-				}
-				p {
-					align-self: flex-start;
 				}
 				img {
 					width: 604px;
@@ -3628,9 +3643,6 @@ p {
 				.artwork {
 					justify-content: flex-start;
 					width: 604px;
-				}
-				p {
-					align-self: flex-start;
 				}
 				img {
 					width: 604px;
@@ -3669,9 +3681,6 @@ p {
 						line-height: 2rem;
 					}
 				}
-				.messerger-button {
-					margin: 0;
-				}
 				.question-button {
 					width: 100%;
 					margin-top: 2rem;
@@ -3694,7 +3703,6 @@ p {
 			}
 			.location-left {
 				.location-description {
-					width: 100%;
 					margin-top: 1.5rem;
 					padding: 0 4rem;
 				}
@@ -3714,9 +3722,6 @@ p {
 					margin-top: 2rem;
 					justify-content: space-between;
 				}
-				.fb-button {
-					margin: 0;
-				}
 			}
 		}
 	}
@@ -3728,18 +3733,13 @@ p {
 		.footer-information {
 			a {
 				margin-top: 0.75rem;
+				font-size: 1.25rem;
 			}
 		}
 		.footer-contact {
 			padding: 0;
 			align-items: flex-end;
-			> div {
-				margin-top: 0.75rem;
-			}
-			h2 {
-				font-size: 1.75rem;
-				transform: translateX(0.625rem);
-			}
+
 			.footer-subtitle {
 				display: none;
 			}
@@ -3750,6 +3750,7 @@ p {
 				}
 			}
 			.copyright {
+				margin-top: 0.75rem;
 				font-size: 0.5rem;
 			}
 		}
@@ -3864,10 +3865,9 @@ p {
 		}
 		.class-introduction {
 			.class-iconline {
-				margin-top: 1rem;
 				p {
 					width: 85%;
-					font-size: 1.2rem;
+					font-size: 1.25rem;
 				}
 			}
 			.child-class {
@@ -3886,10 +3886,12 @@ p {
 						margin-top: 0.5rem;
 					}
 					.class-detail {
-						margin-top: 1.5rem;
 						p {
-							margin-top: 0.75rem;
-							font-size: 1.2rem;
+							margin-top: 0.5rem;
+							font-size: 1rem;
+						}
+						p:first-child {
+							margin-top: 0;
 						}
 					}
 				}
@@ -3909,10 +3911,12 @@ p {
 						margin-top: 0.5rem;
 					}
 					.class-detail {
-						margin-top: 1.5rem;
 						p {
-							margin-top: 0.75rem;
-							font-size: 1.2rem;
+							margin-top: 0.5rem;
+							font-size: 1rem;
+						}
+						p:first-child {
+							margin-top: 0;
 						}
 					}
 				}
@@ -3932,16 +3936,21 @@ p {
 						margin-top: 0.5rem;
 					}
 					.class-detail {
-						margin-top: 1.5rem;
 						p {
-							margin-top: 0.75rem;
-							font-size: 1.2rem;
+							margin-top: 0.5rem;
+							font-size: 1rem;
+						}
+						p:first-child {
+							margin-top: 0;
 						}
 					}
 				}
 			}
 		}
 		.chen-teacher {
+			.flexbox {
+				margin-top: 10vw;
+			}
 			li {
 				font-size: 1rem;
 				line-height: 1.25rem;
@@ -3974,6 +3983,9 @@ p {
 			}
 		}
 		.lu-teacher {
+			.flexbox {
+				margin-top: 10vw;
+			}
 			li {
 				font-size: 1rem;
 				line-height: 1.25rem;
@@ -4051,79 +4063,7 @@ p {
 
 }
 
-@media (min-width: 1280px) and (max-width: 1919px) {
-	.container {
-		max-width: 1152px;
-	}
-	.col-2 {
-		width: 16.6666667%;
-	}
-
-	.col-3 {
-		width: 25%;
-	}
-
-	.col-4 {
-		width: 33.3333333%;
-	}
-
-	.col-6 {
-		width: 50%;
-	}
-
-	.col-8 {
-		width: 66.6666667%;
-	}
-
-	.col-9 {
-		width: 75%;
-	}
-
-	.col-10 {
-		width: 83.3333333%;
-	}
-	
-	.col-12 {
-		width: 100%;
-	}
-
-}
-
 @media (min-width: 1920px) {
-	.container {
-		max-width: 1152px;
-	}
-	.col-2 {
-		width: 16.6666667%;
-	}
-
-	.col-3 {
-		width: 25%;
-	}
-
-	.col-4 {
-		width: 33.3333333%;
-	}
-
-	.col-6 {
-		width: 50%;
-	}
-
-	.col-8 {
-		width: 66.6666667%;
-	}
-
-	.col-9 {
-		width: 75%;
-	}
-
-	.col-10 {
-		width: 83.3333333%;
-	}
-	
-	.col-12 {
-		width: 100%;
-	}
 	#header {
 		#intro {
 			.index-left {
@@ -4148,6 +4088,4 @@ p {
 			}
 		}
 	}
-	
-
 }
