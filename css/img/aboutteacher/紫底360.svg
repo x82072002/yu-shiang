@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="1440" viewBox="0 0 360 1440">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.977" x2="0.5" y2="0.027" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c4f9b"/>
+      <stop offset="1" stop-color="#e5512c"/>
+    </linearGradient>
+  </defs>
+  <path id="紫底360" d="M0,57.117s23.332-13.9,98.557-18.277,105.772-.739,171.3,9.619S360,57.117,360,57.117V1434.573s-28.792,26.863-99.186,37.928S123.219,1472.342,76.3,1460,0,1434.573,0,1434.573Z" transform="translate(360 1477.02) rotate(180)" fill="url(#linear-gradient)"/>
+</svg>

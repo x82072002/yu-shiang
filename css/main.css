@@ -729,6 +729,7 @@ p {
   padding: 20px 0 20px 20px;
   background-color: #E5512C;
   color: #FFFFFF;
+  font-weight: 800;
   border-radius: 5px;
 }
 #content .growing .aesthetic .indexicon {
@@ -1253,6 +1254,7 @@ p {
 }
 #content .award-list .circle-title h2 {
   margin-bottom: 1rem;
+  font-weight: 800;
 }
 #content .award-list .list-name {
   display: -webkit-box;
@@ -1477,6 +1479,9 @@ p {
   margin-top: -1.75rem;
   padding: 0 0 0 3rem;
 }
+#content .class-introduction .child-class .child-right h2 {
+  font-weight: 800;
+}
 #content .class-introduction .child-class .child-right .linebar {
   margin-top: 0.5rem;
   width: 12rem;
@@ -1508,6 +1513,9 @@ p {
 #content .class-introduction .basic-class .basic-left {
   margin-top: -1.75rem;
   padding: 0 3rem 0 0;
+}
+#content .class-introduction .basic-class .basic-left h2 {
+  font-weight: 800;
 }
 #content .class-introduction .basic-class .basic-left .linebar {
   margin-top: 0.5rem;
@@ -1546,6 +1554,9 @@ p {
 #content .class-introduction .enterschool-class .enterschool-right {
   margin-top: -1.75rem;
   padding: 0 0 0 3rem;
+}
+#content .class-introduction .enterschool-class .enterschool-right h2 {
+  font-weight: 800;
 }
 #content .class-introduction .enterschool-class .enterschool-right .linebar {
   margin-top: 0.5rem;
@@ -1688,6 +1699,7 @@ p {
 #content .chen-teacher .chen-introduction .smalltitle {
   margin-top: 1.25rem;
   width: 12.5rem;
+  font-size: 1.5rem;
   background-image: -webkit-linear-gradient(315deg, #E5512C, #8C4F9B);
   background-image: -o-linear-gradient(315deg, #E5512C, #8C4F9B);
   background-image: linear-gradient(135deg, #E5512C, #8C4F9B);
@@ -1756,6 +1768,7 @@ p {
 #content .lu-teacher .lu-introduction .smalltitle {
   margin-top: 1.25rem;
   width: 12.5rem;
+  font-size: 1.5rem;
   background-image: -webkit-linear-gradient(315deg, #EDB72A, #E5512C);
   background-image: -o-linear-gradient(315deg, #EDB72A, #E5512C);
   background-image: linear-gradient(135deg, #EDB72A, #E5512C);
@@ -1928,6 +1941,9 @@ p {
   justify-content: center;
   padding: 0 0 0 3rem;
 }
+#content .question .question-right h2 {
+  font-weight: 800;
+}
 #content .question .question-right .p24fz {
   margin-top: 3rem;
   width: 100%;
@@ -2020,7 +2036,7 @@ p {
   color: #FFFFFF;
 }
 #content .location .flexbox {
-  margin-top: 18vw;
+  margin-top: 17vw;
 }
 #content .location .location-left {
   display: -webkit-box;
@@ -2142,6 +2158,7 @@ p {
   padding: 0 0 0 3rem;
 }
 #content .follow .follow-right h2 {
+  font-weight: 800;
   line-height: 3.25rem;
 }
 #content .follow .follow-right .follow-button {
@@ -2220,7 +2237,6 @@ p {
   letter-spacing: 1px;
 }
 #footer {
-  /*min-width: 1152px;*/
   margin-top: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2357,12 +2373,9 @@ p {
   p {
     font-size: 1rem;
   }
-  .smalltitle {
-    font-size: 1.5rem;
-  }
   #header {
-    height: 80vw;
-    background-image: url(img/index/small-index-right.svg);
+    height: 85vw;
+    background-image: url(img/index/index-right360.svg);
   }
   #header #intro {
     margin-top: 8.5rem;
@@ -2471,7 +2484,8 @@ p {
     font-size: 1.25rem;
   }
   #content .yourclass {
-    height: 180vw;
+    height: 170vw;
+    background-image: url(img/index/yourclass360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -2505,7 +2519,7 @@ p {
     height: 4rem;
   }
   #content .result .result-left {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   #content .result .result-left img {
     width: 4.25rem;
@@ -2536,7 +2550,8 @@ p {
     margin-top: 1rem;
   }
   #content .art-smile {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 130vw;
   }
   #content .art-smile .smile-left {
     padding: 0;
@@ -2551,7 +2566,8 @@ p {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
   }
   #content .careful-teach {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 130vw;
   }
   #content .careful-teach .careful-right {
     -webkit-box-ordinal-group: 0;
@@ -2569,7 +2585,8 @@ p {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
   }
   #content .everyclass {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 130vw;
   }
   #content .everyclass .everyclass-left {
     padding: 0;
@@ -2584,7 +2601,8 @@ p {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
   }
   #content .award-list {
-    height: 420vw;
+    height: 440vw;
+    background-image: url(img/aboutus/獎項底圖360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -2676,8 +2694,9 @@ p {
     font-size: 1.05rem;
   }
   #content .class-introduction {
-    height: 1018vw;
-    margin-top: 0;
+    height: 935vw;
+    background-image: none;
+    margin-top: 14rem;
   }
   #content .class-introduction .first {
     margin-top: 2rem;
@@ -2686,8 +2705,14 @@ p {
     font-size: 1.1rem;
   }
   #content .class-introduction .child-class {
-    margin-top: 34rem;
-    margin-bottom: 12rem;
+    padding-top: 35vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 380vw;
+    background-image: url(img/aboutclass/課程介紹底圖黃菊.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   #content .class-introduction .child-class .child-left {
     margin-top: 2.5rem;
@@ -2736,7 +2761,15 @@ p {
     margin-top: 0;
   }
   #content .class-introduction .basic-class {
-    margin-bottom: 12rem;
+    padding-top: 45vw;
+    margin-bottom: 0;
+    height: 395vw;
+    background-image: url(img/aboutclass/課程介紹底圖紫紅.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -80vw;
   }
   #content .class-introduction .basic-class .basic-left {
     display: -webkit-box;
@@ -2780,6 +2813,17 @@ p {
   #content .class-introduction .basic-class .basic-right img {
     width: 91.6vw;
     border: 10px solid #EEEEEF;
+  }
+  #content .class-introduction .enterschool-class {
+    padding-top: 50vw;
+    margin-bottom: 0;
+    height: 324vw;
+    background-image: url(img/aboutclass/課程介紹底圖綠黃.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -150vw;
   }
   #content .class-introduction .enterschool-class .enterschool-left {
     margin-top: 2.5rem;
@@ -2854,7 +2898,8 @@ p {
     font-size: 3.5rem;
   }
   #content .chen-teacher {
-    height: 470vw;
+    height: 480vw;
+    background-image: url(img/aboutteacher/橘底360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -2892,7 +2937,8 @@ p {
     padding: 0;
   }
   #content .lu-teacher {
-    height: 440vw;
+    height: 442vw;
+    background-image: url(img/aboutteacher/紫底360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -2959,6 +3005,14 @@ p {
   }
   #content .allartwork .artwork-top .artwork-title p {
     font-size: 1.5rem;
+  }
+  #content .allartwork .artwork-sketch .container,
+  #content .allartwork .artwork-watercolor .container,
+  #content .allartwork .artwork-childpainting .container,
+  #content .allartwork .artwork-handicraft .container,
+  #content .allartwork .art-test .container {
+    width: 95.8vw;
+    margin: 0 0 0 4.2vw;
   }
   #content .question .question-right {
     margin-top: 4rem;
@@ -3037,7 +3091,6 @@ p {
     flex-wrap: wrap;
   }
   #content .location .location-left .location-description {
-    width: 91.6vw;
     margin-top: 1.5rem;
   }
   #content .location .location-left .googlemap-button p {
@@ -3086,6 +3139,7 @@ p {
   }
   #footer {
     margin-top: 14rem;
+    background-image: url(img/footer360.svg);
   }
   #footer .flexbox-footer {
     padding: 0 0 1.5rem 0;
@@ -3171,12 +3225,9 @@ p {
   p {
     font-size: 1rem;
   }
-  .smalltitle {
-    font-size: 1.5rem;
-  }
   #header {
-    height: 80vw;
-    background-image: url(img/index/small-index-right.svg);
+    height: 85vw;
+    background-image: url(img/index/index-right360.svg);
   }
   #header #intro {
     margin-top: 8.5rem;
@@ -3286,6 +3337,7 @@ p {
   }
   #content .yourclass {
     height: 150vw;
+    background-image: url(img/index/yourclass360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -3319,7 +3371,7 @@ p {
     height: 4rem;
   }
   #content .result .result-left {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   #content .result .result-left img {
     width: 4.25rem;
@@ -3350,7 +3402,8 @@ p {
     margin-top: 1rem;
   }
   #content .art-smile {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 100vw;
   }
   #content .art-smile .smile-left {
     padding: 0;
@@ -3365,7 +3418,8 @@ p {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
   }
   #content .careful-teach {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 100vw;
   }
   #content .careful-teach .careful-right {
     -webkit-box-ordinal-group: 0;
@@ -3383,7 +3437,8 @@ p {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
   }
   #content .everyclass {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 100vw;
   }
   #content .everyclass .everyclass-left {
     padding: 0;
@@ -3398,7 +3453,8 @@ p {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
   }
   #content .award-list {
-    height: 400vw;
+    height: 415vw;
+    background-image: url(img/aboutus/獎項底圖360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -3499,8 +3555,9 @@ p {
     font-size: 1.05rem;
   }
   #content .class-introduction {
-    height: 945vw;
-    margin-top: 0;
+    height: 850vw;
+    background-image: none;
+    margin-top: 14rem;
   }
   #content .class-introduction .first {
     margin-top: 2rem;
@@ -3509,8 +3566,14 @@ p {
     font-size: 1.1rem;
   }
   #content .class-introduction .child-class {
-    margin-top: 36rem;
-    margin-bottom: 15rem;
+    padding-top: 35vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 355vw;
+    background-image: url(img/aboutclass/課程介紹底圖黃菊.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   #content .class-introduction .child-class .child-left {
     margin-top: 2.5rem;
@@ -3559,7 +3622,15 @@ p {
     margin-top: 0;
   }
   #content .class-introduction .basic-class {
-    margin-bottom: 15rem;
+    padding-top: 45vw;
+    margin-bottom: 0;
+    height: 365vw;
+    background-image: url(img/aboutclass/課程介紹底圖紫紅.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -80vw;
   }
   #content .class-introduction .basic-class .basic-left {
     display: -webkit-box;
@@ -3603,6 +3674,17 @@ p {
   #content .class-introduction .basic-class .basic-right img {
     width: 83.3333333vw;
     border: 10px solid #EEEEEF;
+  }
+  #content .class-introduction .enterschool-class {
+    padding-top: 50vw;
+    margin-bottom: 0;
+    height: 295vw;
+    background-image: url(img/aboutclass/課程介紹底圖綠黃.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -150vw;
   }
   #content .class-introduction .enterschool-class .enterschool-left {
     margin-top: 2rem;
@@ -3678,6 +3760,7 @@ p {
   }
   #content .chen-teacher {
     height: 430vw;
+    background-image: url(img/aboutteacher/橘底360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -3715,7 +3798,8 @@ p {
     padding: 0;
   }
   #content .lu-teacher {
-    height: 420vw;
+    height: 400vw;
+    background-image: url(img/aboutteacher/紫底360.svg);
     background-size: cover;
     background-position: center;
   }
@@ -3780,6 +3864,14 @@ p {
   #content .allartwork .artwork-top .artwork-title p {
     font-size: 1.5rem;
   }
+  #content .allartwork .artwork-sketch .container,
+  #content .allartwork .artwork-watercolor .container,
+  #content .allartwork .artwork-childpainting .container,
+  #content .allartwork .artwork-handicraft .container,
+  #content .allartwork .art-test .container {
+    width: 91.7vw;
+    margin: 0 0 0 8.3vw;
+  }
   #content .question .question-right {
     margin-top: 4rem;
     padding: 0;
@@ -3834,7 +3926,7 @@ p {
     justify-content: space-between;
   }
   #content .location {
-    height: 297vw;
+    height: 280vw;
     background-size: cover;
     background-position: center;
     margin-top: 7rem;
@@ -3860,7 +3952,6 @@ p {
     width: 10rem;
   }
   #content .location .location-left .location-description {
-    width: 83.3333333vw;
     margin-top: 1.5rem;
   }
   #content .location .location-left .googlemap-button p {
@@ -3909,6 +4000,7 @@ p {
   }
   #footer {
     margin-top: 14rem;
+    background-image: url(img/footer360.svg);
   }
   #footer .flexbox-footer {
     padding: 0 0 1.5rem 0;
@@ -3984,7 +4076,7 @@ p {
   }
   #header {
     height: 92vw;
-    background-image: url(img/index/small-index-right.svg);
+    background-image: url(img/index/index-right360.svg);
   }
   #nav {
     display: none;
@@ -4000,37 +4092,40 @@ p {
   }
   #content .growing .growing-right {
     width: 100%;
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
-    order: -1;
     padding: 0;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
   }
   #content .yourclass {
-    height: 130vw;
+    height: 120vw;
+    background-image: url(img/index/yourclass768.svg);
     background-size: cover;
     background-position: center;
   }
-  #content .yourclass .yourclass-left {
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-    margin-bottom: 4rem;
+  #content .yourclass .flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
-  #content .yourclass .yourclass-right {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
+  #content .yourclass .yourclass-left {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 4rem;
+    padding: 0 4rem;
   }
   #content .yourclass .yourclass-right .circled {
     margin-bottom: 0;
   }
   #content .result .result-left {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   #content .result .result-right {
     padding: 0;
   }
   #content .art-smile {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 110vw;
   }
   #content .art-smile .container {
     padding: 0 3rem;
@@ -4040,7 +4135,8 @@ p {
     margin-bottom: 3rem;
   }
   #content .careful-teach {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 110vw;
   }
   #content .careful-teach .container {
     padding: 0 3rem;
@@ -4053,7 +4149,8 @@ p {
     margin-bottom: 3rem;
   }
   #content .everyclass {
-    height: 150vw;
+    margin-top: 10rem;
+    height: 110vw;
   }
   #content .everyclass .container {
     padding: 0 3rem;
@@ -4064,6 +4161,7 @@ p {
   }
   #content .award-list {
     height: 280vw;
+    background-image: url(img/aboutus/獎項底圖768.svg);
     background-size: cover;
     background-position: center;
   }
@@ -4133,12 +4231,13 @@ p {
     font-size: 1.75rem;
   }
   #content .class-introduction {
-    height: 634vw;
-    margin-top: 0;
+    height: 627vw;
+    background-image: url(img/aboutclass/課程介紹底圖768.svg);
+    margin-top: 14rem;
   }
   #content .class-introduction .child-class {
-    margin-top: 36rem;
-    margin-bottom: 15rem;
+    margin-top: 12rem;
+    margin-bottom: 0;
   }
   #content .class-introduction .child-class .child-left {
     margin-top: 2.5rem;
@@ -4174,7 +4273,8 @@ p {
     align-self: center;
   }
   #content .class-introduction .basic-class {
-    margin-bottom: 15rem;
+    margin-top: 18rem;
+    margin-bottom: 0;
   }
   #content .class-introduction .basic-class .basic-left {
     display: -webkit-box;
@@ -4205,6 +4305,9 @@ p {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  #content .class-introduction .enterschool-class {
+    margin-top: 24rem;
   }
   #content .class-introduction .enterschool-class .enterschool-left {
     margin-top: 2.5rem;
@@ -4244,6 +4347,7 @@ p {
   }
   #content .chen-teacher {
     height: 290vw;
+    background-image: url(img/aboutteacher/橘底768.svg);
     background-size: cover;
     background-position: center;
   }
@@ -4270,6 +4374,7 @@ p {
   }
   #content .lu-teacher {
     height: 270vw;
+    background-image: url(img/aboutteacher/紫底768.svg);
     background-size: cover;
     background-position: center;
   }
@@ -4643,13 +4748,25 @@ p {
   #header #intro .index-left {
     display: block;
   }
+  #content .chen-teacher {
+    margin-top: 22rem;
+    height: 81vw;
+    background-image: url(img/aboutteacher/橘底1920.svg);
+  }
   #content .chen-teacher .flexbox {
-    margin-top: 25vw;
+    margin-top: 15vw;
+  }
+  #content .lu-teacher {
+    height: 81vw;
+    background-image: url(img/aboutteacher/紫底1920.svg);
   }
   #content .lu-teacher .flexbox {
-    margin-top: 25vw;
+    margin-top: 14vw;
   }
   #content .location .flexbox {
     margin-top: 24vw;
+  }
+  #footer {
+    background-image: url(img/footer1920.svg);
   }
 }

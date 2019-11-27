@@ -285,11 +285,11 @@ $(document).ready(function(e){
 				$('.four-advantage .content').addClass('fadeInFromBottom-active');
 			}
 
-			if(scrollTop>=1000) {
+			if(scrollTop>=850) {
 				$('.chen-teacher .flexbox').addClass('fadeIn-active');
 			}
 
-			if(scrollTop>=3000) {
+			if(scrollTop>=2600) {
 				$('.lu-teacher .flexbox').addClass('fadeIn-active');
 			}
 
