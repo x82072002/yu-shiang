@@ -18,7 +18,7 @@ html {
 body {
   display: block;
   font-family: Microsoft JhengHei;
-  color: #000000;
+  color: #262727;
 }
 img {
   display: block;
@@ -27,7 +27,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: #000000;
+  color: #262727;
 }
 ul {
   margin: 0;
@@ -432,7 +432,7 @@ p {
   color: #FFFFFF;
 }
 #nav a:hover {
-  color: #000000;
+  color: #262727;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -449,7 +449,7 @@ p {
   align-items: center;
 }
 #nav .aboutusnav a {
-  color: #000000;
+  color: #262727;
 }
 #nav .aboutusnav a:hover {
   color: #EDB72A;
@@ -466,7 +466,7 @@ p {
   align-items: center;
 }
 #nav .aboutclassnav a {
-  color: #000000;
+  color: #262727;
 }
 #nav .aboutclassnav a:hover {
   color: #E5512C;
@@ -483,7 +483,7 @@ p {
   align-items: center;
 }
 #nav .aboutteachernav a {
-  color: #000000;
+  color: #262727;
 }
 #nav .aboutteachernav a:hover {
   color: #EDB72A;
@@ -500,7 +500,7 @@ p {
   align-items: center;
 }
 #nav .ourworknav a {
-  color: #000000;
+  color: #262727;
 }
 #nav .ourworknav a:hover {
   color: #8C4F9B;
@@ -517,7 +517,7 @@ p {
   align-items: center;
 }
 #nav .contactusnav a {
-  color: #000000;
+  color: #262727;
 }
 #nav .contactusnav a:hover {
   color: #E5512C;
@@ -554,7 +554,7 @@ p {
   margin: 0.3rem 0;
   width: 2.5rem;
   height: 0.3125rem;
-  background-color: #000000;
+  background-color: #262727;
   border-radius: 0.25rem;
 }
 .mobile-nav {
@@ -597,7 +597,7 @@ p {
 .mobile-nav .first-mbnav .mobile-x .x-top {
   width: 4rem;
   height: 0.4rem;
-  background-color: #000000;
+  background-color: #262727;
   border-radius: 0.25rem;
   -webkit-transform: translateY(0.2rem) rotate(135deg);
   -ms-transform: translateY(0.2rem) rotate(135deg);
@@ -606,7 +606,7 @@ p {
 .mobile-nav .first-mbnav .mobile-x .x-bottom {
   width: 4rem;
   height: 0.4rem;
-  background-color: #000000;
+  background-color: #262727;
   border-radius: 0.25rem;
   -webkit-transform: translateY(-0.2rem) rotate(-135deg);
   -ms-transform: translateY(-0.2rem) rotate(-135deg);
@@ -2286,7 +2286,7 @@ p {
   font-weight: 800;
 }
 #footer .footer-information a:hover {
-  color: #000000;
+  color: #262727;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
