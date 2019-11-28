@@ -3484,14 +3484,20 @@ p {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   #content .award-list .list-name-right {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #content .award-list .enterschool {
+    width: 320px;
+  }
+  #content .award-list .award {
+    width: 320px;
   }
   #content .award-list .nameall {
     display: -webkit-box;
