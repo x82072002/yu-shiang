@@ -2324,9 +2324,14 @@ p {
 }
 #footer .footer-contact .footer-subtitle {
   margin-top: 1rem;
+}
+#footer .footer-contact .footer-subtitle a {
   color: #EEEEEF;
   font-size: 1rem;
   letter-spacing: 1px;
+}
+#footer .footer-contact .footer-subtitle a:hover {
+  color: #C1C1C1;
 }
 #footer .footer-contact .copyright {
   margin-top: 1rem;
