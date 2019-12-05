@@ -4132,9 +4132,12 @@ p {
   }
   #content .result .result-left {
     margin-bottom: 2rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   #content .result .result-right {
-    padding: 0;
+    padding: 0 1rem;
   }
   #content .art-smile {
     margin-top: 10rem;
@@ -4513,21 +4516,21 @@ p {
     font-size: 1.25rem;
   }
   #footer .footer-contact {
-    padding: 0;
+    padding: 0 1rem;
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
   }
   #footer .footer-contact .footer-subtitle {
-    display: none;
+    padding-left: 8rem;
+    text-align: right;
   }
   #footer .footer-contact .footer-button a {
     padding: 0.5rem 1.25rem;
     font-size: 1.5rem;
   }
   #footer .footer-contact .copyright {
-    margin-top: 0.75rem;
-    font-size: 0.5rem;
+    display: none;
   }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
